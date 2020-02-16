@@ -51,7 +51,7 @@ func NewStore(filename string) *Store {
 				log.Errorf("Error from reader while reading logfile: %v", err)
 			}
 
-			log.Debugf("reading logfile: %s", line)
+			//log.Debugf("reading logfile: %s", line)
 			var data map[string]interface{}
 			err = json.Unmarshal(line, &data)
 			if err != nil {
@@ -59,7 +59,7 @@ func NewStore(filename string) *Store {
 			}
 			key := data["key"].(string)
 			value := data["value"].(string)
-			log.Debugf("Unmarshal json: %s, %s", key, value)
+			//log.Debugf("Unmarshal json: %s, %s", key, value)
 			cache.Store(key, value)
 		}
 	}

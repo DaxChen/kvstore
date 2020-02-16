@@ -4,7 +4,6 @@ import (
 	"context"
 
 	pb "github.com/DaxChen/kvstore/proto"
-	log "github.com/sirupsen/logrus"
 )
 
 type Server struct {
@@ -21,7 +20,7 @@ func NewServer() *Server {
 
 func (s *Server) Get(ctx context.Context, key *pb.Key) (*pb.Value, error) {
 	k := key.GetKey()
-	log.Debugf("received request Get(%s)\n", k)
+	//log.Debugf("received request Get(%s)\n", k)
 
 	value, err := s.store.Get(k)
 	if err != nil {
@@ -32,7 +31,7 @@ func (s *Server) Get(ctx context.Context, key *pb.Key) (*pb.Value, error) {
 
 func (s *Server) Set(ctx context.Context, pair *pb.KeyValuePair) (*pb.SetResponse, error) {
 	k, v := pair.GetKey(), pair.GetValue()
-	log.Debugf("received request Set(%s, %s)\n", k, v)
+	//log.Debugf("received request Set(%s, %s)\n", k, v)
 
 	// cache[k] = v
 	s.store.Set(k, v)
@@ -42,7 +41,7 @@ func (s *Server) Set(ctx context.Context, pair *pb.KeyValuePair) (*pb.SetRespons
 
 func (s *Server) GetPrefix(prefixKey *pb.PrefixKey, stream pb.KVStore_GetPrefixServer) error {
 	prefix := prefixKey.GetPrefix()
-	log.Debugf("received request GetPrefix(%s)\n", prefix)
+	//log.Debugf("received request GetPrefix(%s)\n", prefix)
 
 	var streamError error
 
