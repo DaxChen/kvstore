@@ -9,6 +9,7 @@ import (
 	"time"
 
 	pb "github.com/DaxChen/kvstore/proto"
+	"github.com/golang/protobuf/ptypes/empty"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 )
@@ -68,6 +69,14 @@ func doGetPrefix(client pb.KVStoreClient, prefix string) {
 	log.Debugf("called GetPrefix(%s), got %v, total get prefixes done %d", prefix, values, count)
 }
 
+func doCrash(client pb.KVStoreClient) {
+	log.Tracef("try calling Crash()")
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	client.Crash(ctx, &empty.Empty{})
+}
+
 func getAveLatency(client pb.KVStoreClient, filename string) {
 	for i := 0; i < loop; i++ {
 		log.Tracef("load file %s", filename)
@@ -101,7 +110,7 @@ func getAveLatency(client pb.KVStoreClient, filename string) {
 			}
 		}
 
-		log.Println("time: ", time.Now(), " ,latency: ", dur / time.Duration(countGet + countSet),
+		log.Println("time: ", time.Now(), " ,latency: ", dur/time.Duration(countGet+countSet),
 			" ,total gets done: ", countGet, " ,total sets done: ", countSet)
 	}
 }
@@ -123,7 +132,7 @@ func getWirteLatency(client pb.KVStoreClient, key string, value string) (time.Du
 }
 
 func main() {
-	log.SetLevel(log.DebugLevel)
+	log.SetLevel(log.InfoLevel)
 
 	conn, err := grpc.Dial("localhost:10000", grpc.WithInsecure(), grpc.WithBlock())
 	if err != nil {
@@ -133,7 +142,6 @@ func main() {
 	defer conn.Close()
 
 	client := pb.NewKVStoreClient(conn)
-
 
 	args := os.Args[1:]
 	// "./client/main.exe" "exp1" "f512.txt"
@@ -165,4 +173,5 @@ func main() {
 		doGetPrefix(client, args[1])
 	}
 
+	doCrash(client)
 }

@@ -2,8 +2,10 @@ package main
 
 import (
 	"context"
+	"os"
 
 	pb "github.com/DaxChen/kvstore/proto"
+	"github.com/golang/protobuf/ptypes/empty"
 )
 
 type Server struct {
@@ -57,4 +59,9 @@ func (s *Server) GetPrefix(prefixKey *pb.PrefixKey, stream pb.KVStore_GetPrefixS
 		return streamError
 	}
 	return nil
+}
+
+func (s *Server) Crash(ctx context.Context, _ *empty.Empty) (*empty.Empty, error) {
+	os.Exit(3)
+	return nil, nil
 }

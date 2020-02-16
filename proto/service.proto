@@ -3,10 +3,13 @@ syntax = "proto3";
 
 package proto;
 
+import "google/protobuf/empty.proto";
+
 service KVStore {
   rpc Get(Key) returns (Value) {}
   rpc Set(KeyValuePair) returns (SetResponse) {}
   rpc GetPrefix(PrefixKey) returns (stream Value) {}
+  rpc Crash(google.protobuf.Empty) returns (google.protobuf.Empty) {}
 }
 
 message Key { string key = 1; }
