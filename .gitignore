@@ -1,0 +1,6 @@
+.DS_Store
+
+server/kvserver
+server/mem.log
+client/kvclient
+
