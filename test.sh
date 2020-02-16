@@ -6,6 +6,25 @@ cd client
 go build -o main.exe
 cd ..
 
+rm ./mem.log
+$"./server/main.exe" &
+
+sleep 5
+
+$"./client/main.exe" "load" "10" "512"
+$"./client/main.exe" "stat"
+#$"./client/main.exe" "exp1" "read" "10"
+#$"./client/main.exe" "stat"
+#$"./client/main.exe" "exp1" "readwrite" "10" "512"
+#$"./client/main.exe" "stat"
+$"./client/main.exe" "prefix" "00000000000000000"
+$"./client/main.exe" "stat"
+#$"./reboot.sh" &
+#$"./client/main.exe" "exp2"
+
+kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')
+
+
 ############### experiment 1 ###############
 #echo "experiment 1"
 #echo "clean mem.log and build server"
@@ -193,21 +212,21 @@ cd ..
 #kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')
 
 ############### prefix & validate correctness ###############
-echo "prefix"
-echo "clean mem.log and build server"
-rm ./mem.log
-$"./server/main.exe" &
-
-echo "set prefix data"
-$"./client/main.exe" "exp1" "prefix.txt"
-echo "check prefix"
-$"./client/main.exe" "prefix" "A"
-
-kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')
-
-echo "recover server"
-$"./server/main.exe" &
-echo "check prefix again"
-$"./client/main.exe" "prefix" "A"
-
-kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')
+#echo "prefix"
+#echo "clean mem.log and build server"
+#rm ./mem.log
+#$"./server/main.exe" &
+#
+#echo "set prefix data"
+#$"./client/main.exe" "exp1" "prefix.txt"
+#echo "check prefix"
+#$"./client/main.exe" "prefix" "A"
+#
+#kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')
+#
+#echo "recover server"
+#$"./server/main.exe" &
+#echo "check prefix again"
+#$"./client/main.exe" "prefix" "A"
+#
+#kill -SIGTERM $(ps aux | pgrep -f './server/main.exe')

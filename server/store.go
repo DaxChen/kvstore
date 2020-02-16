@@ -8,6 +8,8 @@ import (
 	"os"
 	"strings"
 	"sync"
+	"sync/atomic"
+	"time"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -16,6 +18,13 @@ type Store struct {
 	cache   *sync.Map
 	logfile *os.File
 }
+
+var (
+	serverStartTime string
+	totalGetsDone int64
+	totalSetsDone int64
+	totalGetprefixesDone int64
+)
 
 // NewStore Constructor for Store
 func NewStore(filename string) *Store {
@@ -64,6 +73,10 @@ func NewStore(filename string) *Store {
 		}
 	}
 
+	serverStartTime = time.Now().String()
+	totalGetsDone = 0
+	totalSetsDone = 0
+	totalGetprefixesDone = 0
 	return &Store{
 		cache:   &cache,
 		logfile: f,
@@ -72,8 +85,10 @@ func NewStore(filename string) *Store {
 
 func (s *Store) Get(key string) (string, error) {
 	if result, ok := s.cache.Load(key); ok {
+		atomic.AddInt64(&totalGetsDone, 1)
 		return result.(string), nil
 	}
+
 	return "", errors.New("key not found")
 }
 
@@ -94,17 +109,22 @@ func (s *Store) Set(key, value string) error {
 		return err
 	}
 
+	atomic.AddInt64(&totalSetsDone, 1)
 	// finally add to cache
 	s.cache.Store(key, value)
 	return nil
 }
 
 func (s *Store) GetPrefix(prefix string, callback func(key, value string) bool) {
+	atomic.AddInt64(&totalGetprefixesDone, 1)
 	s.cache.Range(func(k, v interface{}) bool {
 		if !strings.HasPrefix(k.(string), prefix) {
 			return true
 		}
-
 		return callback(k.(string), v.(string))
 	})
+}
+
+func (s *Store) GetStats() (string, int64, int64, int64) {
+	return serverStartTime, totalGetsDone, totalSetsDone, totalGetprefixesDone
 }
