@@ -102,7 +102,7 @@ func (s *Store) Get(key string) (string, error) {
 	return "", errors.New("key not found")
 }
 
-func (s *Store) Set(key, value string) error {
+func (s *Store) Set(key, value string, sync bool) error {
 	// first append to logfile
 	payload, err := json.Marshal(map[string]string{"key": key, "value": value})
 	if err != nil {
@@ -114,11 +114,14 @@ func (s *Store) Set(key, value string) error {
 		log.Fatalf("error appending to logfile: %v", err)
 		return err
 	}
-	log.Tracef("calling fsync")
-	// call fsync to make sure commit to file
-	if err := s.logfile.Sync(); err != nil {
-		log.Fatalf("error fsync to logfile: %v", err)
-		return err
+
+	if sync {
+		log.Tracef("calling fsync")
+		// call fsync to make sure commit to file
+		if err := s.logfile.Sync(); err != nil {
+			log.Fatalf("error fsync to logfile: %v", err)
+			return err
+		}
 	}
 
 	atomic.AddInt64(&totalSetsDone, 1)

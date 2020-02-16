@@ -44,7 +44,7 @@ func doGet(client pb.KVStoreClient, key string) bool {
 
 func doSet(client pb.KVStoreClient, key string, value string) bool {
 	log.Tracef("try calling Set(%s, %s)", key, value)
-	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 	res, err := client.Set(ctx, &pb.KeyValuePair{Key: key, Value: value})
 	if err != nil {
@@ -53,6 +53,15 @@ func doSet(client pb.KVStoreClient, key string, value string) bool {
 	}
 	log.Tracef("called Set(%s, %s), got %v", key, value, res)
 	return true
+}
+
+func doSetWithoutSync(client pb.KVStoreClient, key string, value string) {
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	_, err := client.SetWithoutSync(ctx, &pb.KeyValuePair{Key: key, Value: value})
+	if err != nil {
+		log.Errorf("called SetWithoutSync, got error %v", err)
+	}
 }
 
 func doGetPrefix(client pb.KVStoreClient, prefix string) {
@@ -114,17 +123,28 @@ func loadDataBase(client pb.KVStoreClient, numKeys int, valueSize int) {
 	})
 	uiprogress.Start()
 
-	// concurrent for loop
+	// fan-in
+	in := make(chan int)
+	go func() {
+		for i := 1; i <= numKeys; i++ {
+			in <- i
+		}
+		close(in)
+	}()
+
 	var wg sync.WaitGroup
-	for i := 1; i <= numKeys; i++ {
+	for worker := 0; worker < runtime.NumCPU(); worker++ {
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
-			key := fmt.Sprintf("%0128d", i)
-			value := generateRandomValue(valueSize)
 
-			doSet(client, key, value)
-			bar.Incr()
+			for i := range in {
+				key := fmt.Sprintf("%0128d", i)
+				value := generateRandomValue(valueSize)
+
+				doSetWithoutSync(client, key, value)
+				bar.Incr()
+			}
 		}()
 	}
 	wg.Wait()

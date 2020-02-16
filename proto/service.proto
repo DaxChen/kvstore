@@ -8,8 +8,9 @@ import "google/protobuf/empty.proto";
 service KVStore {
   rpc Get(Key) returns (Value) {}
   rpc Set(KeyValuePair) returns (SetResponse) {}
+  rpc SetWithoutSync(KeyValuePair) returns (SetResponse) {}
   rpc GetPrefix(PrefixKey) returns (stream Value) {}
-  rpc GetStat (google.protobuf.Empty) returns (States) {}
+  rpc GetStat(google.protobuf.Empty) returns (States) {}
   rpc Crash(google.protobuf.Empty) returns (google.protobuf.Empty) {}
 }
 
@@ -27,8 +28,8 @@ message SetResponse { bool success = 1; }
 message PrefixKey { string prefix = 1; }
 
 message States {
-    string serverStartTime = 1;
-    int64 totalGetsDone = 2;
-    int64 totalSetsDone = 3;
-    int64 totalGetprefixesDone = 4;
+  string serverStartTime = 1;
+  int64 totalGetsDone = 2;
+  int64 totalSetsDone = 3;
+  int64 totalGetprefixesDone = 4;
 }

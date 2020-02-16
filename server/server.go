@@ -36,7 +36,16 @@ func (s *Server) Set(ctx context.Context, pair *pb.KeyValuePair) (*pb.SetRespons
 	k, v := pair.GetKey(), pair.GetValue()
 	log.Tracef("received request Set, total set: %d", totalSetsDone)
 
-	s.store.Set(k, v)
+	s.store.Set(k, v, true)
+
+	return &pb.SetResponse{Success: true}, nil
+}
+
+func (s *Server) SetWithoutSync(ctx context.Context, pair *pb.KeyValuePair) (*pb.SetResponse, error) {
+	k, v := pair.GetKey(), pair.GetValue()
+	log.Tracef("received request SetWithoutSync, total set: %d", totalSetsDone)
+
+	s.store.Set(k, v, false)
 
 	return &pb.SetResponse{Success: true}, nil
 }
