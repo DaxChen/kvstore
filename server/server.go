@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
+	"os"
+
 	pb "github.com/DaxChen/kvstore/proto"
 	"github.com/golang/protobuf/ptypes/empty"
 	log "github.com/sirupsen/logrus"
-	"os"
 )
 
 type Server struct {
@@ -33,7 +34,7 @@ func (s *Server) Get(ctx context.Context, key *pb.Key) (*pb.Value, error) {
 
 func (s *Server) Set(ctx context.Context, pair *pb.KeyValuePair) (*pb.SetResponse, error) {
 	k, v := pair.GetKey(), pair.GetValue()
-	log.Tracef("received request Set(%s, %s)\n", k, v)
+	log.Tracef("received request Set, total set: %d", totalSetsDone)
 
 	s.store.Set(k, v)
 
@@ -61,9 +62,9 @@ func (s *Server) GetPrefix(prefixKey *pb.PrefixKey, stream pb.KVStore_GetPrefixS
 }
 
 func (s *Server) GetStat(context.Context, *empty.Empty) (*pb.States, error) {
-	startTime, getsDone, setsDone, prefixesDone :=  s.store.GetStats()
+	startTime, getsDone, setsDone, prefixesDone := s.store.GetStats()
 	//log.Debugf("server getsDone(%d)\n", getsDone)
-	return &pb.States{ServerStartTime: startTime,TotalGetsDone: getsDone,
+	return &pb.States{ServerStartTime: startTime, TotalGetsDone: getsDone,
 		TotalSetsDone: setsDone, TotalGetprefixesDone: prefixesDone}, nil
 }
 

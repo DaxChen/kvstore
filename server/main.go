@@ -12,7 +12,7 @@ import (
 const maxMsgSize = 1024 * 1024 * 5
 
 func main() {
-	log.SetLevel(log.DebugLevel)
+	log.SetLevel(log.TraceLevel)
 
 	lis, err := net.Listen("tcp", ":10000")
 	if err != nil {

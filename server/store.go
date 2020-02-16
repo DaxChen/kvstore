@@ -20,9 +20,9 @@ type Store struct {
 }
 
 var (
-	serverStartTime string
-	totalGetsDone int64
-	totalSetsDone int64
+	serverStartTime      string
+	totalGetsDone        int64
+	totalSetsDone        int64
 	totalGetprefixesDone int64
 )
 
@@ -34,12 +34,13 @@ func NewStore(filename string) *Store {
 	}
 
 	var cache sync.Map
-	// TODO: populate cache with file upon recover
+	linecount := 0
 	readFile, err := os.Open(filename)
 	if err != nil {
 		log.Warnf("Error opening logfile to read, perhaps logfile not exist yet? %v", err)
 	} else {
 		defer readFile.Close()
+		log.Infof("Found log file, restoring cache from %s", filename)
 
 		reader := bufio.NewReaderSize(readFile, 512*1024)
 		for {
@@ -60,11 +61,13 @@ func NewStore(filename string) *Store {
 				log.Errorf("Error from reader while reading logfile: %v", err)
 			}
 
+			linecount++
 			//log.Debugf("reading logfile: %s", line)
 			var data map[string]interface{}
 			err = json.Unmarshal(line, &data)
 			if err != nil {
 				log.Errorf("Error from json.Unmarshal: %v", err)
+				continue
 			}
 			key := data["key"].(string)
 			value := data["value"].(string)
@@ -72,6 +75,13 @@ func NewStore(filename string) *Store {
 			cache.Store(key, value)
 		}
 	}
+
+	length := 0
+	cache.Range(func(_, _ interface{}) bool {
+		length++
+		return true
+	})
+	log.Infof("done recovering from %s, read %d lines, results in %d valid entries.", filename, linecount, length)
 
 	serverStartTime = time.Now().String()
 	totalGetsDone = 0
@@ -98,11 +108,13 @@ func (s *Store) Set(key, value string) error {
 	if err != nil {
 		log.Fatalf("error in json.Marshal(key, value): %v", err)
 	}
+	log.Tracef("appending to log file")
 	if _, err := s.logfile.Write(append(payload, '\n')); err != nil {
 		s.logfile.Close() // ignore error; Write error takes precedence
 		log.Fatalf("error appending to logfile: %v", err)
 		return err
 	}
+	log.Tracef("calling fsync")
 	// call fsync to make sure commit to file
 	if err := s.logfile.Sync(); err != nil {
 		log.Fatalf("error fsync to logfile: %v", err)
@@ -111,6 +123,7 @@ func (s *Store) Set(key, value string) error {
 
 	atomic.AddInt64(&totalSetsDone, 1)
 	// finally add to cache
+	log.Tracef("adding to cache")
 	s.cache.Store(key, value)
 	return nil
 }

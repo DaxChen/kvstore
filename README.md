@@ -1,17 +1,26 @@
 # kvstore
-cs739 key value store using gRPC
 
-# install
+CS739 Project 1: fault-tolerant key value store using gRPC
 
-run `make install-go` to download and install go from official website and
-setup PATH and GOPATH etc.
+# installing Go and dependencies
 
 If you already have go 13.8 and go tools (eg. go mod) installed, you can skip this.
 
+Follow the offical guild to install `go` and go-tools (eg. `go mod`).
+If on `ubuntu 16.04` to `18.04`, you can take a look at `scripts/install-go-ubuntu.sh`, which
+downloads and installs go from official website and setup PATH and GOPATH for you.
 
-# compile
+The module dependencies are managed by go modules.
 
-run `make` to compile binary
-executables
+Make sure you have go modules installed and go should automatically download the needed dependencies when you run `go run` or `go build`.
+
+(You should clone this repo outside of GOPATH, because by default go modules are disabled inside GOPATH. You can either move this folder outside of GOPATH or enable go modules everywhere.)
+
+# Compiling and `make` commands
+
+- `make`: compile both server and client binary executables using `go build`.
+- `make clean`: to remove `kvserver`, `kvclient`, and the database file `mem.log`.
 
 # run test scripts
+
+Under the `scripts` directory, there are several scripts to run our experiments.

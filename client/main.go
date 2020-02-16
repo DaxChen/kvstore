@@ -6,19 +6,22 @@ import (
 	"io"
 	"math/rand"
 	"os"
+	"runtime"
 	"strconv"
-	"strings"
+	"sync"
 	"time"
 
 	pb "github.com/DaxChen/kvstore/proto"
+	"github.com/fatih/color"
 	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/gosuri/uiprogress"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 )
 
 const charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-func StringWithCharset(length int, charset string) string {
+func generateRandomValue(length int) string {
 	b := make([]byte, length)
 	for i := range b {
 		b[i] = charset[rand.Intn(len(charset))]
@@ -26,12 +29,8 @@ func StringWithCharset(length int, charset string) string {
 	return string(b)
 }
 
-func StringValue(length int) string {
-	return StringWithCharset(length, charset)
-}
-
 func doGet(client pb.KVStoreClient, key string) bool {
-	log.Trace("try calling Get(%s)", key)
+	log.Tracef("try calling Get(%s)", key)
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 	value, err := client.Get(ctx, &pb.Key{Key: key})
@@ -45,11 +44,11 @@ func doGet(client pb.KVStoreClient, key string) bool {
 
 func doSet(client pb.KVStoreClient, key string, value string) bool {
 	log.Tracef("try calling Set(%s, %s)", key, value)
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 	defer cancel()
 	res, err := client.Set(ctx, &pb.KeyValuePair{Key: key, Value: value})
 	if err != nil {
-		log.Errorf("called Set(%s, %s), got error %v", key, value, err)
+		log.Errorf("called Set, got error %v", err)
 		return false
 	}
 	log.Tracef("called Set(%s, %s), got %v", key, value, res)
@@ -106,13 +105,30 @@ func doCrash(client pb.KVStoreClient) {
 }
 
 func loadDataBase(client pb.KVStoreClient, numKeys int, valueSize int) {
-	log.Debug("try loadDataBase")
-	for i := 1; i <= numKeys; i++ {
-		key := fmt.Sprintf("%0128d", i)
-		value := StringValue(valueSize)
+	log.Infof("load Data: %d keys, each %d bytes value.", numKeys, valueSize)
 
-		doSet(client, key, value)
+	// progress bar
+	bar := uiprogress.AddBar(numKeys).AppendCompleted().PrependElapsed()
+	bar.PrependFunc(func(b *uiprogress.Bar) string {
+		return fmt.Sprintf("%d/%d", b.Current(), numKeys)
+	})
+	uiprogress.Start()
+
+	// concurrent for loop
+	var wg sync.WaitGroup
+	for i := 1; i <= numKeys; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			key := fmt.Sprintf("%0128d", i)
+			value := generateRandomValue(valueSize)
+
+			doSet(client, key, value)
+			bar.Incr()
+		}()
 	}
+	wg.Wait()
+	uiprogress.Stop()
 }
 
 func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
@@ -120,7 +136,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	var dur time.Duration = 0
 	countGet := 0
 
-	ticker := time.NewTicker(10*time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	done := make(chan bool)
 	go func() {
 		for {
@@ -131,15 +147,15 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 				if countGet == 0 {
 					log.Debug(t, "\t", 0, "\t", 0)
 				} else {
-					log.Debug(t, "\t", dur / time.Duration(countGet), "\t", float64(128 * countGet / 1024) / dur.Seconds())
+					log.Debug(t, "\t", dur/time.Duration(countGet), "\t", float64(128*countGet/1024)/dur.Seconds())
 				}
 			}
 		}
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3*time.Minute)) {
-		key := fmt.Sprintf("%0128d", rand.Intn(numKeys) + 1)
+	for time.Now().Before(exp.Add(3 * time.Minute)) {
+		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		period, suc := getReadLatency(client, key)
 		if suc {
 			countGet++
@@ -152,7 +168,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	if countGet == 0 {
 		log.Debug(time.Now(), "\t", 0, "\t", 0)
 	} else {
-		log.Debug(time.Now(), "\t", dur / time.Duration(countGet), "\t", float64(128 * countGet / 1024) / dur.Seconds())
+		log.Debug(time.Now(), "\t", dur/time.Duration(countGet), "\t", float64(128*countGet/1024)/dur.Seconds())
 	}
 }
 
@@ -162,7 +178,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	countGet := 0
 	countSet := 0
 
-	ticker := time.NewTicker(10*time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	done := make(chan bool)
 	go func() {
 		for {
@@ -173,17 +189,17 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 				if countGet == 0 {
 					log.Debug(t, "\t", 0, "\t", 0)
 				} else {
-					rThp := float64(128 * countGet / 1024) / dur.Seconds()
-					wThp := float64(valueSize * countSet / 1024) / dur.Seconds()
-					log.Debug(t, "\t", dur / time.Duration(countGet + countSet), "\t", rThp + wThp)
+					rThp := float64(128*countGet/1024) / dur.Seconds()
+					wThp := float64(valueSize*countSet/1024) / dur.Seconds()
+					log.Debug(t, "\t", dur/time.Duration(countGet+countSet), "\t", rThp+wThp)
 				}
 			}
 		}
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3*time.Minute)) {
-		key := fmt.Sprintf("%0128d", rand.Intn(numKeys) + 1)
+	for time.Now().Before(exp.Add(3 * time.Minute)) {
+		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		if rand.Intn(2) >= 1 {
 			period, suc := getReadLatency(client, key)
 			if suc {
@@ -191,7 +207,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 			}
 			dur += period
 		} else {
-			value := StringValue(valueSize)
+			value := generateRandomValue(valueSize)
 			period, suc := getWriteLatency(client, key, value)
 			if suc {
 				countSet++
@@ -205,9 +221,9 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	if countGet == 0 {
 		log.Debug(time.Now(), "\t", 0, "\t", 0)
 	} else {
-		rThp := float64(128 * countGet / 1024) / dur.Seconds()
-		wThp := float64(valueSize * countSet / 1024) / dur.Seconds()
-		log.Debug(time.Now(), "\t", dur / time.Duration(countGet + countSet), "\t", rThp + wThp)
+		rThp := float64(128*countGet/1024) / dur.Seconds()
+		wThp := float64(valueSize*countSet/1024) / dur.Seconds()
+		log.Debug(time.Now(), "\t", dur/time.Duration(countGet+countSet), "\t", rThp+wThp)
 	}
 }
 
@@ -235,9 +251,8 @@ func getColdLatency(client pb.KVStoreClient) {
 	var start time.Time
 	fail := 0
 	for time.Now().Before(exp2.Add(time.Minute)) {
-		suc := doGet(client, "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000" +
-			"0000000000000000000000000000000000000000001")
-
+		key := fmt.Sprintf("%0128d", 1)
+		suc := doGet(client, key)
 		if !suc && fail == 0 {
 			log.Debug("fail to connect", time.Now())
 			fail++
@@ -253,8 +268,10 @@ func getColdLatency(client pb.KVStoreClient) {
 }
 
 func main() {
+	runtime.GOMAXPROCS(runtime.NumCPU()) // use all available cpu cores
 	log.SetLevel(log.DebugLevel)
 
+	log.Info("trying to connect to server at localhost:10000")
 	conn, err := grpc.Dial("localhost:10000", grpc.WithInsecure(), grpc.WithBlock())
 	if err != nil {
 		log.Fatalf("failed to connect to server: %v", err)
@@ -273,7 +290,7 @@ func main() {
 	// <exp2>
 	// <stat>
 	// <prefix> <prefixKey>
-	if len(args) == 3 && strings.Compare(args[0], "load") == 0 {
+	if len(args) == 3 && args[0] == "load" {
 		numKeys, err = strconv.ParseInt(args[1], 10, 64)
 		if err != nil {
 			log.Debugf("fail to parse numKeys")
@@ -284,8 +301,8 @@ func main() {
 		}
 
 		loadDataBase(client, int(numKeys), int(valueSize))
-	} else if len(args) == 3 && strings.Compare(args[0], "exp1") == 0 {
-		if strings.Compare(args[1], "read") == 0 {
+	} else if len(args) == 3 && args[0] == "exp1" {
+		if args[1] == "read" {
 			numKeys, err = strconv.ParseInt(args[2], 10, 64)
 			if err != nil {
 				log.Debugf("fail to parse numKeys")
@@ -293,8 +310,8 @@ func main() {
 
 			getAveReadLatency(client, int(numKeys))
 		}
-	} else if len(args) == 4 && strings.Compare(args[0], "exp1") == 0 {
-		if strings.Compare(args[1], "readwrite") == 0 {
+	} else if len(args) == 4 && args[0] == "exp1" {
+		if args[1] == "readwrite" {
 			numKeys, err = strconv.ParseInt(args[2], 10, 64)
 			if err != nil {
 				log.Debugf("fail to parse numKeys")
@@ -306,11 +323,28 @@ func main() {
 
 			getAveRWLatency(client, int(numKeys), int(valueSize))
 		}
-	} else if len(args) == 1 && strings.Compare(args[0], "exp2") == 0 {
+	} else if len(args) == 1 && args[0] == "exp2" {
 		getColdLatency(client)
-	} else if len(args) == 1 && strings.Compare(args[0], "stat") == 0 {
+	} else if len(args) == 1 && args[0] == "stat" {
 		doStat(client)
-	} else if len(args) == 2 && strings.Compare(args[0], "prefix") == 0 {
+	} else if len(args) == 2 && args[0] == "prefix" {
 		doGetPrefix(client, args[1])
+	} else {
+		fmt.Println("")
+		color.Red("Usage:")
+		fmt.Println("# load the server with <#keys> keys, each with <value_size> bytes of value.")
+		color.Green("./kvclient load <#keys> <value_size>")
+		fmt.Println("")
+		fmt.Println("# run exp1 read test (provide #keys to make sure randome genreate keys are in range)")
+		color.Green("./kvclient exp1 read <#keys>")
+		fmt.Println("# run exp1 50% read 50% write test")
+		color.Green("./kvclient exp1 readwrite <#keys> <value_size>")
+		fmt.Println("")
+		fmt.Println("# run exp2: measure cold start time")
+		color.Green("./kvclient exp2")
+		fmt.Println("")
+		fmt.Println("# other commands")
+		color.Green("./kvclient stat")
+		color.Green("./kvclient prefix <prefix_key>")
 	}
 }

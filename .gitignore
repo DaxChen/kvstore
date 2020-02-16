@@ -1,6 +1,11 @@
 .DS_Store
 
-server/kvserver
+mem.log
 server/mem.log
+
+server/kvserver
+kvserver
+
 client/kvclient
+kvclient
 
