@@ -6,6 +6,13 @@ read -e -p "Server Address host:port (eg. localhost:10000)" server_addr
 num_keys=$((1 * 1024 * 1024))
 value_size=$((4 * 1024))
 
+# get number of clients from user
+read -e -p "Number of clients: " num_clients
+if [ $num_clients -lt 1 ]; then
+  echo "ERROR input! number of clients should be positive"
+  exit 1
+fi
+
 load_data() {
   echo ""
   echo "=============================="
@@ -28,13 +35,6 @@ select yn in "Yes" "No"; do
     esac
 done
 
-
-# get number of clients from user
-read -e -p "Number of clients: " num_clients
-if [ $num_clients -lt 1 ]; then
-  echo "ERROR input! number of clients should be positive"
-  exit 1
-fi
 
 echo ""
 echo "=============================="
