@@ -24,3 +24,5 @@ Make sure you have go modules installed and go should automatically download the
 # run test scripts
 
 Under the `scripts` directory, there are several scripts to run our experiments.
+
+for example run `scripts/exp1-server.sh` to start server, and `scripts/exp1-client.sh` to start client for to run experiment 1, it will ask you to provide some numbers to use.
