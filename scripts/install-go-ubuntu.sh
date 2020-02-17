@@ -10,7 +10,11 @@ sudo mv go /usr/local
 # setup path
 echo 'export GOPATH=$HOME/go' >> ~/.profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' >> ~/.profile
-source ~/.profile
 
+echo "please run: "
+echo ""
+echo "  source ~/.profile"
+echo ""
+echo "to have the PATH variable updated,"
 # verify
-go version
+echo 'and run `go version` to verify go installation'
