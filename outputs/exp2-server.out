@@ -1,0 +1,48 @@
+Please answer if you want to remove mem.log:
+rm: remove regular file 'mem.log'? Starting server. Will Monitor and restart the server if crashes...
+time="2020-02-17T03:32:39-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:32:39-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:33:19-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:33:19-06:00" level=info msg="server started on time: 2020-02-17 03:33:19.192489238 -0600 CST m=+39.855268414"
+time="2020-02-17T03:33:29-06:00" level=debug msg="gets done 0, sets done 0, prefix done 0"
+Server './kvserver' crashed with exit code 3.  Respawning..
+time="2020-02-17T03:33:39-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:33:39-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:34:19-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:34:19-06:00" level=info msg="server started on time: 2020-02-17 03:34:19.318977501 -0600 CST m=+39.849227883"
+time="2020-02-17T03:34:29-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:34:39-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+Please answer if you want to remove mem.log:
+rm: remove regular file 'mem.log'? Starting server. Will Monitor and restart the server if crashes...
+time="2020-02-17T03:35:40-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:35:40-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:36:20-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:36:20-06:00" level=info msg="server started on time: 2020-02-17 03:36:20.106141873 -0600 CST m=+39.171057424"
+Server './kvserver' crashed with exit code 3.  Respawning..
+time="2020-02-17T03:36:22-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:36:22-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:37:01-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:37:01-06:00" level=info msg="server started on time: 2020-02-17 03:37:01.935428495 -0600 CST m=+39.185922460"
+time="2020-02-17T03:37:11-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:37:21-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:37:31-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:37:41-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:37:51-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:38:01-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:38:11-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:38:21-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:38:31-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:38:41-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+Please answer if you want to remove mem.log:
+rm: remove regular file 'mem.log'? Starting server. Will Monitor and restart the server if crashes...
+time="2020-02-17T03:38:46-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:38:46-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:39:26-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:39:26-06:00" level=info msg="server started on time: 2020-02-17 03:39:26.565252774 -0600 CST m=+39.869531312"
+Server './kvserver' crashed with exit code 3.  Respawning..
+time="2020-02-17T03:39:29-06:00" level=info msg="starting server on port 10000..."
+time="2020-02-17T03:39:29-06:00" level=info msg="Found log file, restoring cache from mem.log"
+time="2020-02-17T03:40:09-06:00" level=info msg="done recovering from mem.log, read 1048576 lines, results in 1048576 valid entries."
+time="2020-02-17T03:40:09-06:00" level=info msg="server started on time: 2020-02-17 03:40:09.891275664 -0600 CST m=+40.467429231"
+time="2020-02-17T03:40:19-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
+time="2020-02-17T03:40:29-06:00" level=debug msg="gets done 1, sets done 0, prefix done 0"
