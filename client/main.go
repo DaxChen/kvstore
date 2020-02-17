@@ -2,20 +2,29 @@ package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
 	"io"
 	"math/rand"
-	"os"
 	"runtime"
-	"strconv"
 	"sync"
 	"time"
 
 	pb "github.com/DaxChen/kvstore/proto"
+	"github.com/fatih/color"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/gosuri/uiprogress"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
+)
+
+var (
+	serverAddr = flag.String("server_addr", "localhost:10000", "The server address in the format of host:port")
+	command    = flag.String("command", "", "load/exp1/exp2/stat/getPrefix")
+	mode       = flag.String("mode", "", "read/readwrite")
+	numKeys    = flag.Int("num_keys", 0, "number of keys")
+	valueSize  = flag.Int("value_size", 0, "value size in bytes")
+	prefixKey  = flag.String("prefix_key", "", "the prefix key to get")
 )
 
 const charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -176,7 +185,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 				if countGet == 0 {
 					log.Debug("no get")
 				} else {
-					log.Debug("latency ", dur / time.Duration(countGet), " ,throughput(ops/sec) ", float64(countGet) / dur.Seconds())
+					log.Debug("latency ", dur/time.Duration(countGet), ", throughput(ops/sec) ", float64(countGet)/dur.Seconds())
 				}
 			}
 		}
@@ -197,7 +206,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	if countGet == 0 {
 		log.Info("no get")
 	} else {
-		log.Info("latency ", dur / time.Duration(countGet), " ,throughput(ops/sec) ", float64(countGet) / dur.Seconds())
+		log.Info("latency ", dur/time.Duration(countGet), ", throughput(ops/sec) ", float64(countGet)/dur.Seconds())
 	}
 }
 
@@ -218,7 +227,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 				if countGet == 0 && countSet == 0 {
 					log.Debug("no get and set")
 				} else {
-					log.Debug("latency ", dur / time.Duration(countGet+countSet), " ,throughput(ops/sec) ", float64(countGet+countSet) / dur.Seconds())
+					log.Debug("latency ", dur/time.Duration(countGet+countSet), ", throughput(ops/sec) ", float64(countGet+countSet)/dur.Seconds())
 				}
 			}
 		}
@@ -248,7 +257,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	if countGet == 0 && countSet == 0 {
 		log.Info("no get and set")
 	} else {
-		log.Info("latency ", dur / time.Duration(countGet+countSet), " ,throughput(ops/sec) ", float64(countGet+countSet) / dur.Seconds())
+		log.Info("latency ", dur/time.Duration(countGet+countSet), ", throughput(ops/sec) ", float64(countGet+countSet)/dur.Seconds())
 	}
 }
 
@@ -296,81 +305,55 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU()) // use all available cpu cores
 	log.SetLevel(log.DebugLevel)
 
-	log.Info("trying to connect to server at localhost:10000")
-	conn, err := grpc.Dial("localhost:10000", grpc.WithInsecure(), grpc.WithBlock())
+	flag.Parse()
+
+	log.Infof("trying to connect to server at %s", *serverAddr)
+	conn, err := grpc.Dial(*serverAddr, grpc.WithInsecure(), grpc.WithBlock())
 	if err != nil {
 		log.Fatalf("failed to connect to server: %v", err)
 	}
-	log.Info("connected to localhost:10000")
+	log.Infof("connected to %s", *serverAddr)
 	defer conn.Close()
 
 	client := pb.NewKVStoreClient(conn)
 
-	args := os.Args[1:]
-	var numKeys int64
-	var valueSize int64
 	// <load> <#keys> <valueSize>
 	// <exp1> <read> <#Keys>
 	// <exp1> <readwrite> <#Keys> <valueSize>
 	// <exp2>
 	// <stat>
 	// <prefix> <prefixKey>
-	if len(args) == 3 && args[0] == "load" {
-		numKeys, err = strconv.ParseInt(args[1], 10, 64)
-		if err != nil {
-			log.Debugf("fail to parse numKeys")
+	if *command == "load" {
+		loadDataBase(client, *numKeys, *valueSize)
+	} else if *command == "exp1" {
+		if *mode == "read" {
+			getAveReadLatency(client, *numKeys)
+		} else if *mode == "readwrite" {
+			getAveRWLatency(client, *numKeys, *valueSize)
 		}
-		valueSize, err = strconv.ParseInt(args[2], 10, 64)
-		if err != nil {
-			log.Debugf("fail to parse valueSize")
-		}
-
-		loadDataBase(client, int(numKeys), int(valueSize))
-	} else if len(args) == 3 && args[0] == "exp1" {
-		if args[1] == "read" {
-			numKeys, err = strconv.ParseInt(args[2], 10, 64)
-			if err != nil {
-				log.Debugf("fail to parse numKeys")
-			}
-
-			getAveReadLatency(client, int(numKeys))
-		}
-	} else if len(args) == 4 && args[0] == "exp1" {
-		if args[1] == "readwrite" {
-			numKeys, err = strconv.ParseInt(args[2], 10, 64)
-			if err != nil {
-				log.Debugf("fail to parse numKeys")
-			}
-			valueSize, err = strconv.ParseInt(args[3], 10, 64)
-			if err != nil {
-				log.Debugf("fail to parse valueSize")
-			}
-
-			getAveRWLatency(client, int(numKeys), int(valueSize))
-		}
-	} else if len(args) == 1 && args[0] == "exp2" {
+	} else if *command == "exp2" {
 		getColdLatency(client)
-	} else if len(args) == 1 && args[0] == "stat" {
+	} else if *command == "stat" {
 		doStat(client)
-	} else if len(args) == 2 && args[0] == "prefix" {
-		doGetPrefix(client, args[1])
+	} else if *command == "prefix" {
+		doGetPrefix(client, *prefixKey)
+	} else {
+		flag.PrintDefaults()
+		fmt.Println("")
+		color.Red("Usage:")
+		fmt.Println("# load the server with <#keys> keys, each with <value_size> bytes of value.")
+		color.Green("./kvclient -server_addr=localhost:10000 -command=load -num_keys=<#keys> -value_size=<value_size>")
+		fmt.Println("")
+		fmt.Println("# run exp1 read test (provide #keys to make sure randome genreate keys are in range)")
+		color.Green("./kvclient -command=exp1 -mode=read -num_keys=<#keys>")
+		fmt.Println("# run exp1 50% read 50% write test")
+		color.Green("./kvclient -command=exp1 -mode=readwrite -num_keys=<#keys> -value_size=<value_size>")
+		fmt.Println("")
+		fmt.Println("# run exp2: measure cold start time")
+		color.Green("./kvclient -command=exp2")
+		fmt.Println("")
+		fmt.Println("# other commands")
+		color.Green("./kvclient -command=stat")
+		color.Green("./kvclient -command=prefix -prefix_key=<prefix_key>")
 	}
-	//else {
-	//	fmt.Println("")
-	//	color.Red("Usage:")
-	//	fmt.Println("# load the server with <#keys> keys, each with <value_size> bytes of value.")
-	//	color.Green("./kvclient load <#keys> <value_size>")
-	//	fmt.Println("")
-	//	fmt.Println("# run exp1 read test (provide #keys to make sure randome genreate keys are in range)")
-	//	color.Green("./kvclient exp1 read <#keys>")
-	//	fmt.Println("# run exp1 50% read 50% write test")
-	//	color.Green("./kvclient exp1 readwrite <#keys> <value_size>")
-	//	fmt.Println("")
-	//	fmt.Println("# run exp2: measure cold start time")
-	//	color.Green("./kvclient exp2")
-	//	fmt.Println("")
-	//	fmt.Println("# other commands")
-	//	color.Green("./kvclient stat")
-	//	color.Green("./kvclient prefix <prefix_key>")
-	//}
 }

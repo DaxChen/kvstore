@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# get server address from user
+read -e -p "Server Address host:port (eg. localhost:10000)" server_addr
+
 # get number of keys from user
 read -e -p "Number of keys: " num_keys
 if [ $num_keys -lt 1 ]; then
@@ -21,7 +24,7 @@ echo "=== LOAD DATA              ==="
 echo "=============================="
 echo ""
 sleep 1
-./kvclient load $num_keys $value_size
+./kvclient -server_addr=$server_addr -command=load -num_keys=$num_keys -value_size=$value_size
 echo ""
 echo "=== DONE LOAD DATA         ==="
 echo ""
@@ -33,7 +36,7 @@ echo "=== EXP1 READ TEST         ==="
 echo "=============================="
 echo ""
 sleep 1
-./kvclient exp1 read $num_keys
+./kvclient -server_addr=$server_addr -command=exp1 -mode=read -num_keys=$num_keys
 echo ""
 echo "=== DONE EXP1 READ TEST    ==="
 echo ""
@@ -45,7 +48,7 @@ echo "=== EXP1 READ/WRITE TEST   ==="
 echo "=============================="
 echo ""
 sleep 1
-./kvclient exp1 readwrite $num_keys $value_size
+./kvclient -server_addr=$server_addr -command=exp1 -mode=readwrite -num_keys=$num_keys -value_size=$value_size
 echo ""
 echo "=== DONE EXP1 READ/WRITE   ==="
 echo ""

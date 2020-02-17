@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# get server address from user
+read -e -p "Server Address host:port (eg. localhost:10000)" server_addr
+
 num_keys=$((1 * 1024 * 1024))
 value_size=$((4 * 1024))
 
@@ -10,7 +13,7 @@ load_data() {
   echo "=============================="
   echo ""
   sleep 1
-  ./kvclient load $num_keys $value_size
+  ./kvclient -server_addr=$server_addr -command=load -num_keys=$num_keys -value_size=$value_size
   echo ""
   echo "=== DONE LOAD DATA         ==="
   echo ""
@@ -41,7 +44,8 @@ echo ""
 sleep 1
 for i in {1..$num_clients}
 do
-  ./kvclient exp1 read $num_keys
+  echo "spawning client $i"
+  ./kvclient -server_addr=$server_addr -command=exp1 -mode=read -num_keys=$num_keys &
 done
 echo ""
 echo "=== DONE EXP3 READ TEST    ==="
@@ -54,7 +58,11 @@ echo "=== EXP3 READ/WRITE TEST   ==="
 echo "=============================="
 echo ""
 sleep 1
-./kvclient exp1 readwrite $num_keys $value_size
+for i in {1..$num_clients}
+do
+  echo "spawning client $i"
+  ./kvclient -server_addr=$server_addr -command=exp1 -mode=readwrite -num_keys=$num_keys -value_size=$value_size &
+done
 echo ""
 echo "=== DONE EXP3 READ/WRITE   ==="
 echo ""
