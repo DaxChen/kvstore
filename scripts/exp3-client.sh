@@ -42,11 +42,11 @@ echo "=== EXP3 READ TEST         ==="
 echo "=============================="
 echo ""
 sleep 1
-for i in {1..$num_clients}
-do
+for i in $(seq 1 $num_clients); do
   echo "spawning client $i"
   ./kvclient -server_addr=$server_addr -command=exp1 -mode=read -num_keys=$num_keys &
 done
+wait
 echo ""
 echo "=== DONE EXP3 READ TEST    ==="
 echo ""
@@ -58,11 +58,11 @@ echo "=== EXP3 READ/WRITE TEST   ==="
 echo "=============================="
 echo ""
 sleep 1
-for i in {1..$num_clients}
-do
+for i in $(seq 1 $num_clients); do
   echo "spawning client $i"
   ./kvclient -server_addr=$server_addr -command=exp1 -mode=readwrite -num_keys=$num_keys -value_size=$value_size &
 done
+wait
 echo ""
 echo "=== DONE EXP3 READ/WRITE   ==="
 echo ""

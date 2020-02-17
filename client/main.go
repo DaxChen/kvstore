@@ -43,7 +43,7 @@ func doGet(client pb.KVStoreClient, key string) bool {
 	defer cancel()
 	value, err := client.Get(ctx, &pb.Key{Key: key})
 	if err != nil {
-		log.Errorf("called Get, got error %v", err)
+		log.Debugf("called Get, got error %v", err)
 		return false
 	}
 	log.Tracef("called Get(%s), got %s", key, value)
@@ -308,7 +308,7 @@ func getColdLatency(client pb.KVStoreClient) {
 
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU()) // use all available cpu cores
-	log.SetLevel(log.DebugLevel)
+	log.SetLevel(log.InfoLevel)
 
 	flag.Parse()
 

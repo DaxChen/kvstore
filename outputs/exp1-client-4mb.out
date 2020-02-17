@@ -1,0 +1,66 @@
+Server Address host:port (eg. localhost:10000)10.10.1.2:10000
+Number of keys: 256
+value size in bytes: 4194304
+Do you want to load data? num_keys=256, value_size=4194304
+1) Yes
+2) No
+#? 
+==============================
+=== EXP1 READ TEST         ===
+==============================
+
+time="2020-02-16T23:32:07-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-16T23:32:07-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-16T23:32:07-06:00" level=debug msg=getAveReadLatency
+time="2020-02-16T23:32:17-06:00" level=debug msg="latency 30.592805ms, throughput(ops/sec) 32.687424274806396"
+time="2020-02-16T23:32:27-06:00" level=debug msg="latency 30.721342ms, throughput(ops/sec) 32.550660312947436"
+time="2020-02-16T23:32:37-06:00" level=debug msg="latency 30.853808ms, throughput(ops/sec) 32.41090932645256"
+time="2020-02-16T23:32:47-06:00" level=debug msg="latency 30.618296ms, throughput(ops/sec) 32.66020978578794"
+time="2020-02-16T23:32:57-06:00" level=debug msg="latency 30.14467ms, throughput(ops/sec) 33.173359439428"
+time="2020-02-16T23:33:07-06:00" level=debug msg="latency 30.201562ms, throughput(ops/sec) 33.110869277539855"
+time="2020-02-16T23:33:17-06:00" level=debug msg="latency 30.087419ms, throughput(ops/sec) 33.23648270068178"
+time="2020-02-16T23:33:27-06:00" level=debug msg="latency 30.184967ms, throughput(ops/sec) 33.12907370030674"
+time="2020-02-16T23:33:37-06:00" level=debug msg="latency 30.204011ms, throughput(ops/sec) 33.10818479710642"
+time="2020-02-16T23:33:47-06:00" level=debug msg="latency 30.291441ms, throughput(ops/sec) 33.01262504312233"
+time="2020-02-16T23:33:57-06:00" level=debug msg="latency 30.323407ms, throughput(ops/sec) 32.97782415704895"
+time="2020-02-16T23:34:07-06:00" level=debug msg="latency 30.309102ms, throughput(ops/sec) 32.99338851737563"
+time="2020-02-16T23:34:17-06:00" level=debug msg="latency 30.268125ms, throughput(ops/sec) 33.0380551934023"
+time="2020-02-16T23:34:27-06:00" level=debug msg="latency 30.196027ms, throughput(ops/sec) 33.11693852044971"
+time="2020-02-16T23:34:37-06:00" level=debug msg="latency 30.161078ms, throughput(ops/sec) 33.15531307786692"
+time="2020-02-16T23:34:47-06:00" level=debug msg="latency 30.219758ms, throughput(ops/sec) 33.0909325196441"
+time="2020-02-16T23:34:57-06:00" level=debug msg="latency 30.276009ms, throughput(ops/sec) 33.02945216592668"
+time="2020-02-16T23:35:07-06:00" level=debug msg="latency 30.246367ms, throughput(ops/sec) 33.061821240358235"
+time="2020-02-16T23:35:07-06:00" level=info msg="latency 30.246286ms, throughput(ops/sec) 33.061909989286086"
+
+=== DONE EXP1 READ TEST    ===
+
+
+==============================
+=== EXP1 READ/WRITE TEST   ===
+==============================
+
+time="2020-02-16T23:35:08-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-16T23:35:08-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-16T23:35:08-06:00" level=debug msg=getAveRWLatency
+time="2020-02-16T23:35:18-06:00" level=debug msg="readLatency 29.452842ms, writeLatency 93.342647ms, throughput(ops/sec) 16.906712713986263"
+time="2020-02-16T23:35:28-06:00" level=debug msg="readLatency 29.01718ms, writeLatency 91.647054ms, throughput(ops/sec) 16.824422346957313"
+time="2020-02-16T23:35:38-06:00" level=debug msg="readLatency 28.910061ms, writeLatency 91.255761ms, throughput(ops/sec) 16.89170333938393"
+time="2020-02-16T23:35:48-06:00" level=debug msg="readLatency 29.413229ms, writeLatency 92.023286ms, throughput(ops/sec) 16.80631185991255"
+time="2020-02-16T23:35:58-06:00" level=debug msg="readLatency 29.416716ms, writeLatency 92.227215ms, throughput(ops/sec) 16.85588011004747"
+time="2020-02-16T23:36:08-06:00" level=debug msg="readLatency 29.452127ms, writeLatency 92.138376ms, throughput(ops/sec) 16.693382142301655"
+time="2020-02-16T23:36:18-06:00" level=debug msg="readLatency 29.265282ms, writeLatency 91.857208ms, throughput(ops/sec) 16.77598009233112"
+time="2020-02-16T23:36:28-06:00" level=debug msg="readLatency 29.345689ms, writeLatency 92.136901ms, throughput(ops/sec) 16.724283770471438"
+time="2020-02-16T23:36:38-06:00" level=debug msg="readLatency 29.343336ms, writeLatency 92.142598ms, throughput(ops/sec) 16.857041289475543"
+time="2020-02-16T23:36:48-06:00" level=debug msg="readLatency 29.394234ms, writeLatency 92.502515ms, throughput(ops/sec) 16.652248467138552"
+time="2020-02-16T23:36:58-06:00" level=debug msg="readLatency 29.380468ms, writeLatency 92.645215ms, throughput(ops/sec) 16.60210787256916"
+time="2020-02-16T23:37:08-06:00" level=debug msg="readLatency 29.346005ms, writeLatency 92.447354ms, throughput(ops/sec) 16.60561503440237"
+time="2020-02-16T23:37:18-06:00" level=debug msg="readLatency 29.252053ms, writeLatency 92.179366ms, throughput(ops/sec) 16.631385791075918"
+time="2020-02-16T23:37:28-06:00" level=debug msg="readLatency 29.201479ms, writeLatency 92.155277ms, throughput(ops/sec) 16.647595712745634"
+time="2020-02-16T23:37:38-06:00" level=debug msg="readLatency 29.216448ms, writeLatency 92.306751ms, throughput(ops/sec) 16.62213592310525"
+time="2020-02-16T23:37:48-06:00" level=debug msg="readLatency 29.152392ms, writeLatency 92.400319ms, throughput(ops/sec) 16.56975529540385"
+time="2020-02-16T23:37:58-06:00" level=debug msg="readLatency 29.165976ms, writeLatency 92.547068ms, throughput(ops/sec) 16.541311618494497"
+time="2020-02-16T23:38:08-06:00" level=debug msg="readLatency 29.067745ms, writeLatency 92.320973ms, throughput(ops/sec) 16.54485495380581"
+time="2020-02-16T23:38:08-06:00" level=info msg="readLatency 29.067745ms, writeLatency 92.31213ms, throughput(ops/sec) 16.539094133910616"
+
+=== DONE EXP1 READ/WRITE   ===
+

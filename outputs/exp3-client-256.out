@@ -1,0 +1,2069 @@
+Server Address host:port (eg. localhost:10000)10.10.1.2:10000
+Number of clients: 256
+Do you want to load data? num_keys=1048576, value_size=4096
+1) Yes
+2) No
+#? 
+==============================
+=== EXP3 READ TEST         ===
+==============================
+
+spawning client 1
+spawning client 2
+spawning client 3
+spawning client 4
+spawning client 5
+spawning client 6
+spawning client 7
+spawning client 8
+spawning client 9
+spawning client 10
+spawning client 11
+spawning client 12
+spawning client 13
+spawning client 14
+spawning client 15
+spawning client 16
+spawning client 17
+spawning client 18
+spawning client 19
+spawning client 20
+spawning client 21
+spawning client 22
+spawning client 23
+spawning client 24
+spawning client 25
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 26
+spawning client 27
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 28
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 29
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 30
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 31
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 32
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 33
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 34
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 35
+spawning client 36
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 37
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 38
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 39
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 40
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 41
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 42
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 43
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 44
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 45
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 46
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 47
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 48
+spawning client 49
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 50
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 51
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 52
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 53
+spawning client 54
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 55
+spawning client 56
+spawning client 57
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 58
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 59
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 60
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 61
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 62
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 63
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 64
+spawning client 65
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 66
+spawning client 67
+spawning client 68
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 69
+spawning client 70
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 71
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 72
+spawning client 73
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 74
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 75
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 76
+spawning client 77
+spawning client 78
+spawning client 79
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 80
+spawning client 81
+spawning client 82
+spawning client 83
+spawning client 84
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 85
+spawning client 86
+spawning client 87
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 88
+spawning client 89
+spawning client 90
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 91
+spawning client 92
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 93
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 94
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 95
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 96
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 97
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 98
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 99
+spawning client 100
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 101
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 102
+spawning client 103
+spawning client 104
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:27-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 105
+spawning client 106
+time="2020-02-17T02:06:27-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 107
+spawning client 108
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 109
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 110
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 111
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 112
+spawning client 113
+spawning client 114
+spawning client 115
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 116
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 117
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 118
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 119
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 120
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 121
+spawning client 122
+spawning client 123
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 124
+spawning client 125
+spawning client 126
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 127
+spawning client 128
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 129
+spawning client 130
+spawning client 131
+spawning client 132
+spawning client 133
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 134
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 135
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 136
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 137
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 138
+spawning client 139
+spawning client 140
+spawning client 141
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 142
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 143
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 144
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 145
+spawning client 146
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 147
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 148
+spawning client 149
+spawning client 150
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 151
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 152
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 153
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 154
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 155
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 156
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 157
+spawning client 158
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 159
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 160
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 161
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 162
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 163
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 164
+spawning client 165
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 166
+spawning client 167
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 168
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 169
+spawning client 170
+spawning client 171
+spawning client 172
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 173
+spawning client 174
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 175
+spawning client 176
+spawning client 177
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 178
+spawning client 179
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 180
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 181
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 182
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 183
+spawning client 184
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 185
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 186
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 187
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 188
+spawning client 189
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 190
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 191
+spawning client 192
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 193
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 194
+spawning client 195
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 196
+spawning client 197
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 198
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 199
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 200
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 201
+spawning client 202
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 203
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 204
+spawning client 205
+spawning client 206
+spawning client 207
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 208
+spawning client 209
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 210
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 211
+spawning client 212
+spawning client 213
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 214
+spawning client 215
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 216
+spawning client 217
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 218
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 219
+spawning client 220
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 221
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 222
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 223
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 224
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 225
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 226
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 227
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 228
+spawning client 229
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 230
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 231
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 232
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 233
+spawning client 234
+spawning client 235
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 236
+spawning client 237
+spawning client 238
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 239
+spawning client 240
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 241
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 242
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 243
+spawning client 244
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 245
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 246
+spawning client 247
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 248
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 249
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 250
+spawning client 251
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 252
+spawning client 253
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 254
+spawning client 255
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 256
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:06:28-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.569656ms, throughput(ops/sec) 637.0821453477002"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.784043ms, throughput(ops/sec) 560.5244574796893"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.552179ms, throughput(ops/sec) 644.2551983176055"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.68699ms, throughput(ops/sec) 592.7714466250864"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.705056ms, throughput(ops/sec) 586.4907360734313"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.561295ms, throughput(ops/sec) 640.4938676260857"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.578741ms, throughput(ops/sec) 633.4157369761306"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.678367ms, throughput(ops/sec) 595.8169320234283"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.51965ms, throughput(ops/sec) 658.0460838723712"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.55704ms, throughput(ops/sec) 642.2440794777197"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.631716ms, throughput(ops/sec) 612.8514126794266"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.667036ms, throughput(ops/sec) 599.8667199642091"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.629399ms, throughput(ops/sec) 613.7232148607823"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 2.031469ms, throughput(ops/sec) 492.2544010094544"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.530599ms, throughput(ops/sec) 653.3387693750155"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.607919ms, throughput(ops/sec) 621.9216568366172"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.557977ms, throughput(ops/sec) 641.857668407867"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.580137ms, throughput(ops/sec) 632.8561604909053"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.837855ms, throughput(ops/sec) 544.1124095451182"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.513693ms, throughput(ops/sec) 660.635877500823"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.62639ms, throughput(ops/sec) 614.8585954999328"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.614289ms, throughput(ops/sec) 619.4675393243876"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.601732ms, throughput(ops/sec) 624.3241612097067"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.65717ms, throughput(ops/sec) 603.4380934603413"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.81372ms, throughput(ops/sec) 551.3528198851416"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.541968ms, throughput(ops/sec) 648.5217244861565"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.523657ms, throughput(ops/sec) 656.3155685277927"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.572857ms, throughput(ops/sec) 635.7856871295662"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.645198ms, throughput(ops/sec) 607.8293707323812"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.626662ms, throughput(ops/sec) 614.75583523524"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.776355ms, throughput(ops/sec) 562.9502679770072"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.594858ms, throughput(ops/sec) 627.0149364424955"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.66006ms, throughput(ops/sec) 602.3877401799814"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.562877ms, throughput(ops/sec) 639.8453855523226"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.565109ms, throughput(ops/sec) 638.9330943805174"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.585538ms, throughput(ops/sec) 630.7006473847408"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.643321ms, throughput(ops/sec) 608.5236301475301"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.535311ms, throughput(ops/sec) 651.3337259487179"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.55798ms, throughput(ops/sec) 641.8565557289571"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.810589ms, throughput(ops/sec) 552.3064257971592"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.622664ms, throughput(ops/sec) 616.2701997949595"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.545869ms, throughput(ops/sec) 646.8850264251743"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.679435ms, throughput(ops/sec) 595.438121266058"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.557849ms, throughput(ops/sec) 641.9104089867004"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.668518ms, throughput(ops/sec) 599.3340214283282"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.609153ms, throughput(ops/sec) 621.4447124244755"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 2.101581ms, throughput(ops/sec) 475.8321979221087"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.567587ms, throughput(ops/sec) 637.9227757340357"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.571126ms, throughput(ops/sec) 636.4859504225534"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.730173ms, throughput(ops/sec) 577.976799355084"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.833594ms, throughput(ops/sec) 545.3769724790453"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.79914ms, throughput(ops/sec) 555.8209400002992"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.467467ms, throughput(ops/sec) 681.4462609870698"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.556937ms, throughput(ops/sec) 642.286633015225"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.706755ms, throughput(ops/sec) 585.9071342369839"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.599449ms, throughput(ops/sec) 625.2152056841136"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.477816ms, throughput(ops/sec) 676.6740303827773"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.641732ms, throughput(ops/sec) 609.1127865357108"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.800637ms, throughput(ops/sec) 555.3589108608345"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.859191ms, throughput(ops/sec) 537.8681591752584"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.563787ms, throughput(ops/sec) 639.4729914727333"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.966007ms, throughput(ops/sec) 508.64494158465976"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.584868ms, throughput(ops/sec) 630.9673107885292"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.683905ms, throughput(ops/sec) 593.8577094483029"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.778568ms, throughput(ops/sec) 562.2500742104596"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.55709ms, throughput(ops/sec) 642.2232996274474"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.558756ms, throughput(ops/sec) 641.5370362776664"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.633027ms, throughput(ops/sec) 612.3593937768047"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.705297ms, throughput(ops/sec) 586.4078655744371"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.53961ms, throughput(ops/sec) 649.5147824780065"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.644581ms, throughput(ops/sec) 608.0573880249655"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.748762ms, throughput(ops/sec) 571.8330440633023"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.747388ms, throughput(ops/sec) 572.2826883263219"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.597818ms, throughput(ops/sec) 625.8534548138451"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.659086ms, throughput(ops/sec) 602.7413252232442"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.697119ms, throughput(ops/sec) 589.2337928194854"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.467606ms, throughput(ops/sec) 681.381611707037"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.88417ms, throughput(ops/sec) 530.7375810492878"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.595006ms, throughput(ops/sec) 626.9565259151283"
+time="2020-02-17T02:09:27-06:00" level=info msg="latency 1.656647ms, throughput(ops/sec) 603.6285462846837"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.518983ms, throughput(ops/sec) 658.3351485889414"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.563926ms, throughput(ops/sec) 639.4160429570642"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.485148ms, throughput(ops/sec) 673.3334454861476"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.798982ms, throughput(ops/sec) 555.8698146214457"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.639018ms, throughput(ops/sec) 610.1213764967788"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.891468ms, throughput(ops/sec) 528.6897433436995"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.710539ms, throughput(ops/sec) 584.6108107399526"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.650726ms, throughput(ops/sec) 605.7939309914118"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.581298ms, throughput(ops/sec) 632.3915685629948"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.74031ms, throughput(ops/sec) 574.6102202901219"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.525738ms, throughput(ops/sec) 655.4203311475795"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.622295ms, throughput(ops/sec) 616.4106530470164"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.504229ms, throughput(ops/sec) 664.7923147875631"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.558503ms, throughput(ops/sec) 641.6412560785894"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.76007ms, throughput(ops/sec) 568.1590633838084"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.504381ms, throughput(ops/sec) 664.7249231105333"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.629583ms, throughput(ops/sec) 613.6538864396987"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.65295ms, throughput(ops/sec) 604.9786913108964"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.674691ms, throughput(ops/sec) 597.1250525486222"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.637035ms, throughput(ops/sec) 610.860240480688"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.567136ms, throughput(ops/sec) 638.1067080182883"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.793808ms, throughput(ops/sec) 557.4729600278281"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.540947ms, throughput(ops/sec) 648.9514489963323"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.676794ms, throughput(ops/sec) 596.3759133896767"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.696179ms, throughput(ops/sec) 589.5602387266296"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.57134ms, throughput(ops/sec) 636.3992225903734"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.476611ms, throughput(ops/sec) 677.2261007928529"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.623887ms, throughput(ops/sec) 615.8060512364956"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.533938ms, throughput(ops/sec) 651.916672297674"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.771371ms, throughput(ops/sec) 564.5344172089364"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.540165ms, throughput(ops/sec) 649.28100466184"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.626948ms, throughput(ops/sec) 614.6476417804224"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.625228ms, throughput(ops/sec) 615.2979107895549"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.66441ms, throughput(ops/sec) 600.8133665923212"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.451148ms, throughput(ops/sec) 689.1095593113137"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.774394ms, throughput(ops/sec) 563.5724659605926"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.532788ms, throughput(ops/sec) 652.4056701715355"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.594662ms, throughput(ops/sec) 627.0919331360824"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.839951ms, throughput(ops/sec) 543.4926177156761"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.565245ms, throughput(ops/sec) 638.8774088544897"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.553198ms, throughput(ops/sec) 643.8326594610307"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.578627ms, throughput(ops/sec) 633.461496697481"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 2.096443ms, throughput(ops/sec) 476.9982127695365"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.646646ms, throughput(ops/sec) 607.294821154942"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.588856ms, throughput(ops/sec) 629.3834343586149"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.681193ms, throughput(ops/sec) 594.8156581974157"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.59114ms, throughput(ops/sec) 628.4800640487342"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.509761ms, throughput(ops/sec) 662.356314410794"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.504768ms, throughput(ops/sec) 664.5542471795885"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.611064ms, throughput(ops/sec) 620.7074647980211"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.830466ms, throughput(ops/sec) 546.3089702737907"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.565961ms, throughput(ops/sec) 638.5854773724726"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.624746ms, throughput(ops/sec) 615.4804913561208"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.474303ms, throughput(ops/sec) 678.2861958813729"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.683986ms, throughput(ops/sec) 593.8290283689349"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.968773ms, throughput(ops/sec) 507.93045000598124"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.651ms, throughput(ops/sec) 605.6932250000874"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.564281ms, throughput(ops/sec) 639.2709801439016"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.469555ms, throughput(ops/sec) 680.4778391880585"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.555022ms, throughput(ops/sec) 643.0776656724124"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.553678ms, throughput(ops/sec) 643.6339688569655"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.595303ms, throughput(ops/sec) 626.8399427078202"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.822941ms, throughput(ops/sec) 548.5640236955992"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.647268ms, throughput(ops/sec) 607.0653980785827"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.691633ms, throughput(ops/sec) 591.144466642533"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.625184ms, throughput(ops/sec) 615.3148522966003"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.630653ms, throughput(ops/sec) 613.2511921459495"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.583794ms, throughput(ops/sec) 631.3951147781241"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.6372ms, throughput(ops/sec) 610.7988581122206"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.70505ms, throughput(ops/sec) 586.4929810319729"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.650905ms, throughput(ops/sec) 605.7280593883447"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 2.007066ms, throughput(ops/sec) 498.2394940273805"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.589835ms, throughput(ops/sec) 628.9959740146769"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.654701ms, throughput(ops/sec) 604.338751011871"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.729086ms, throughput(ops/sec) 578.3400821936008"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.643531ms, throughput(ops/sec) 608.4457552026334"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.624258ms, throughput(ops/sec) 615.6656606551311"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.475494ms, throughput(ops/sec) 677.7389438481594"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.575979ms, throughput(ops/sec) 634.5259540022341"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.602495ms, throughput(ops/sec) 624.0265448299922"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.591206ms, throughput(ops/sec) 628.4538253188059"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.526253ms, throughput(ops/sec) 655.1993015531515"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.74571ms, throughput(ops/sec) 572.8327765400967"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.68365ms, throughput(ops/sec) 593.947444917633"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.595082ms, throughput(ops/sec) 626.9268403621822"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.614187ms, throughput(ops/sec) 619.5067298899612"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.524893ms, throughput(ops/sec) 655.7834787692858"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.576869ms, throughput(ops/sec) 634.1679158902033"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.693796ms, throughput(ops/sec) 590.3895548193723"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.716976ms, throughput(ops/sec) 582.4190559235852"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.509861ms, throughput(ops/sec) 662.3126045813775"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.485204ms, throughput(ops/sec) 673.3077439203466"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.76667ms, throughput(ops/sec) 566.0365485336497"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.957423ms, throughput(ops/sec) 510.8755184371437"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 2.04481ms, throughput(ops/sec) 489.04285623842327"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.558949ms, throughput(ops/sec) 641.4575979022196"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.785609ms, throughput(ops/sec) 560.0329447054381"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.78688ms, throughput(ops/sec) 559.6344909693795"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.693726ms, throughput(ops/sec) 590.4142292026339"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.566115ms, throughput(ops/sec) 638.5223108168025"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.519208ms, throughput(ops/sec) 658.2374753101816"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.547645ms, throughput(ops/sec) 646.1426455840461"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.689943ms, throughput(ops/sec) 591.7356799165066"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.528986ms, throughput(ops/sec) 654.0281453311635"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.693323ms, throughput(ops/sec) 590.5547466850192"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.532556ms, throughput(ops/sec) 652.5043630944074"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.627365ms, throughput(ops/sec) 614.4900256735447"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.552866ms, throughput(ops/sec) 643.9701868779558"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.63459ms, throughput(ops/sec) 611.7739248413692"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.950043ms, throughput(ops/sec) 512.8090511141785"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.60239ms, throughput(ops/sec) 624.0674421206465"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.687948ms, throughput(ops/sec) 592.4351050471469"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.644293ms, throughput(ops/sec) 608.163856088073"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.458598ms, throughput(ops/sec) 685.5894514056632"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.797257ms, throughput(ops/sec) 556.40343669439"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.531939ms, throughput(ops/sec) 652.767283748859"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.570609ms, throughput(ops/sec) 636.6955314712364"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.578763ms, throughput(ops/sec) 633.4072627547218"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.673604ms, throughput(ops/sec) 597.5127236553841"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 2.103684ms, throughput(ops/sec) 475.3564882246833"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.730666ms, throughput(ops/sec) 577.8121119787759"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.650528ms, throughput(ops/sec) 605.8663696975004"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.537717ms, throughput(ops/sec) 650.3145818854044"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.750035ms, throughput(ops/sec) 571.4170213448308"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.562874ms, throughput(ops/sec) 639.8466990544143"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.718236ms, throughput(ops/sec) 581.9921597316952"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.604251ms, throughput(ops/sec) 623.3438476106581"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.49247ms, throughput(ops/sec) 670.030040713924"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.634267ms, throughput(ops/sec) 611.8949672270778"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.657676ms, throughput(ops/sec) 603.2539339006743"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.540258ms, throughput(ops/sec) 649.2417117883132"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.72319ms, throughput(ops/sec) 580.3188287496221"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.576014ms, throughput(ops/sec) 634.5119291898983"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.611253ms, throughput(ops/sec) 620.6347019393728"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.82013ms, throughput(ops/sec) 549.411096720758"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.804527ms, throughput(ops/sec) 554.1617088020733"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.503075ms, throughput(ops/sec) 665.3024614153677"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.795661ms, throughput(ops/sec) 556.8977811667047"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.610684ms, throughput(ops/sec) 620.8540656366672"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.662907ms, throughput(ops/sec) 601.3563534710412"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.83267ms, throughput(ops/sec) 545.6517976876012"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.542996ms, throughput(ops/sec) 648.0895566272615"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.528194ms, throughput(ops/sec) 654.366994558932"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.658935ms, throughput(ops/sec) 602.7963682868308"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.824645ms, throughput(ops/sec) 548.0515297695927"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.475422ms, throughput(ops/sec) 677.7720571840429"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.582176ms, throughput(ops/sec) 632.0405604088377"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.74315ms, throughput(ops/sec) 573.6739247521919"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.545623ms, throughput(ops/sec) 646.987949813165"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.625397ms, throughput(ops/sec) 615.234010376038"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.5794ms, throughput(ops/sec) 633.1516686766039"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.954429ms, throughput(ops/sec) 511.65835513944825"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.584375ms, throughput(ops/sec) 631.1633994573214"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.832425ms, throughput(ops/sec) 545.7247138016966"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.773364ms, throughput(ops/sec) 563.8997473095369"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.705778ms, throughput(ops/sec) 586.2424512121735"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.637831ms, throughput(ops/sec) 610.5635801179678"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.532285ms, throughput(ops/sec) 652.61983470338"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.708025ms, throughput(ops/sec) 585.4713950408687"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.776437ms, throughput(ops/sec) 562.924544323892"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.511005ms, throughput(ops/sec) 661.8108627551708"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.650539ms, throughput(ops/sec) 605.862343028244"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.813338ms, throughput(ops/sec) 551.4691246779842"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.793464ms, throughput(ops/sec) 557.5799390232958"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.624178ms, throughput(ops/sec) 615.6957930977266"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.537209ms, throughput(ops/sec) 650.5293014309267"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.551225ms, throughput(ops/sec) 644.6515665731529"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.504725ms, throughput(ops/sec) 664.5729691200013"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.611199ms, throughput(ops/sec) 620.6555443736594"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.822745ms, throughput(ops/sec) 548.6229805119805"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.59338ms, throughput(ops/sec) 627.5964437534734"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 2.023552ms, throughput(ops/sec) 494.18031076046384"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.612708ms, throughput(ops/sec) 620.0749002270736"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.715665ms, throughput(ops/sec) 582.8641807770772"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.984501ms, throughput(ops/sec) 503.90481899983484"
+time="2020-02-17T02:09:28-06:00" level=info msg="latency 1.60782ms, throughput(ops/sec) 621.9598383388229"
+
+=== DONE EXP3 READ TEST    ===
+
+
+==============================
+=== EXP3 READ/WRITE TEST   ===
+==============================
+
+spawning client 1
+spawning client 2
+spawning client 3
+spawning client 4
+spawning client 5
+spawning client 6
+spawning client 7
+spawning client 8
+spawning client 9
+spawning client 10
+spawning client 11
+spawning client 12
+spawning client 13
+spawning client 14
+spawning client 15
+spawning client 16
+spawning client 17
+spawning client 18
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 19
+spawning client 20
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 21
+spawning client 22
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 23
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 24
+spawning client 25
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 26
+spawning client 27
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 28
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 29
+spawning client 30
+spawning client 31
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 32
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 33
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 34
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 35
+spawning client 36
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 37
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 38
+spawning client 39
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 40
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 41
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 42
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 43
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 44
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 45
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 46
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 47
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 48
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 49
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 50
+spawning client 51
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 52
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 53
+spawning client 54
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 55
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 56
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 57
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 58
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 59
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 60
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 61
+spawning client 62
+spawning client 63
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 64
+spawning client 65
+spawning client 66
+spawning client 67
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 68
+spawning client 69
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 70
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 71
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 72
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 73
+spawning client 74
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 75
+spawning client 76
+spawning client 77
+spawning client 78
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 79
+spawning client 80
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 81
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 82
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 83
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 84
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 85
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 86
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 87
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 88
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 89
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 90
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 91
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 92
+spawning client 93
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 94
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 95
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 96
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 97
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 98
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 99
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 100
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 101
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 102
+spawning client 103
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 104
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 105
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 106
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 107
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 108
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 109
+spawning client 110
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 111
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 112
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 113
+spawning client 114
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 115
+spawning client 116
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 117
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 118
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 119
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 120
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 121
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 122
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 123
+spawning client 124
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 125
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 126
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 127
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 128
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 129
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 130
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 131
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 132
+spawning client 133
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 134
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 135
+spawning client 136
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 137
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 138
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 139
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 140
+spawning client 141
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 142
+spawning client 143
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 144
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 145
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 146
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 147
+spawning client 148
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 149
+spawning client 150
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 151
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 152
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 153
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 154
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 155
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 156
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 157
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 158
+spawning client 159
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 160
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 161
+spawning client 162
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 163
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 164
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 165
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 166
+spawning client 167
+spawning client 168
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 169
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 170
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 171
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 172
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 173
+spawning client 174
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 175
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 176
+spawning client 177
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 178
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 179
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 180
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 181
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 182
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 183
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 184
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 185
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 186
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 187
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 188
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 189
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 190
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 191
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 192
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 193
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 194
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 195
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 196
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 197
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 198
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 199
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 200
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 201
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 202
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 203
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 204
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 205
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 206
+spawning client 207
+spawning client 208
+spawning client 209
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 210
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 211
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 212
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 213
+spawning client 214
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 215
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 216
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 217
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 218
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 219
+spawning client 220
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 221
+spawning client 222
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 223
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 224
+spawning client 225
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 226
+spawning client 227
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 228
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 229
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 230
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 231
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 232
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 233
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 234
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 235
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 236
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 237
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 238
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 239
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 240
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 241
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 242
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 243
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 244
+spawning client 245
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 246
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 247
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 248
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 249
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 250
+spawning client 251
+spawning client 252
+spawning client 253
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+spawning client 254
+spawning client 255
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+spawning client 256
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:09:29-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.076545ms, writeLatency 66.759388ms, throughput(ops/sec) 29.61323187895422"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.011952ms, writeLatency 66.968546ms, throughput(ops/sec) 29.500710006871465"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.256133ms, writeLatency 66.836263ms, throughput(ops/sec) 29.42895615744411"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.97722ms, writeLatency 66.920927ms, throughput(ops/sec) 29.572861821728676"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.04554ms, writeLatency 66.464923ms, throughput(ops/sec) 29.73568769945518"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.116532ms, writeLatency 66.890561ms, throughput(ops/sec) 29.47756343054179"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.217227ms, writeLatency 66.505593ms, throughput(ops/sec) 29.653329146777576"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.342868ms, writeLatency 66.590012ms, throughput(ops/sec) 29.505737554625384"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.953746ms, writeLatency 67.224626ms, throughput(ops/sec) 29.39228456179136"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.063735ms, writeLatency 66.948603ms, throughput(ops/sec) 29.48629197841624"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.218646ms, writeLatency 67.090316ms, throughput(ops/sec) 29.32868526655652"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.016529ms, writeLatency 67.040257ms, throughput(ops/sec) 29.447756116091202"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.023183ms, writeLatency 67.053839ms, throughput(ops/sec) 29.444503399048706"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.062501ms, writeLatency 66.928996ms, throughput(ops/sec) 29.485059715962198"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.191631ms, writeLatency 67.100785ms, throughput(ops/sec) 29.347141563194874"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.973292ms, writeLatency 67.154857ms, throughput(ops/sec) 29.423514918398674"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.003815ms, writeLatency 67.098483ms, throughput(ops/sec) 29.428574550374737"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.017868ms, writeLatency 67.229891ms, throughput(ops/sec) 29.35755476572816"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.941069ms, writeLatency 66.664384ms, throughput(ops/sec) 29.69719154690614"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.21072ms, writeLatency 66.648833ms, throughput(ops/sec) 29.585425035797414"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.04782ms, writeLatency 67.027612ms, throughput(ops/sec) 29.439340212084346"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.996189ms, writeLatency 67.090936ms, throughput(ops/sec) 29.435147146143397"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.065291ms, writeLatency 66.911426ms, throughput(ops/sec) 29.50147768336278"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.018546ms, writeLatency 67.039862ms, throughput(ops/sec) 29.45720519428426"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.0373ms, writeLatency 67.258049ms, throughput(ops/sec) 29.34277330424065"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.154664ms, writeLatency 67.01536ms, throughput(ops/sec) 29.39825472422797"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.085232ms, writeLatency 67.088964ms, throughput(ops/sec) 29.397537319374297"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.065472ms, writeLatency 67.201887ms, throughput(ops/sec) 29.348550442710625"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.129936ms, writeLatency 67.271714ms, throughput(ops/sec) 29.30776481415508"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.094362ms, writeLatency 66.984205ms, throughput(ops/sec) 29.442751971135827"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.948637ms, writeLatency 67.031891ms, throughput(ops/sec) 29.527925383689706"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.029088ms, writeLatency 67.234963ms, throughput(ops/sec) 29.35049042219319"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.077234ms, writeLatency 66.925752ms, throughput(ops/sec) 29.490069426694767"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.082928ms, writeLatency 67.019705ms, throughput(ops/sec) 29.432684705781533"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.164747ms, writeLatency 66.833144ms, throughput(ops/sec) 29.480740190313913"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.021683ms, writeLatency 67.028737ms, throughput(ops/sec) 29.450389735927065"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.977453ms, writeLatency 67.346544ms, throughput(ops/sec) 29.33118238629819"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.988956ms, writeLatency 66.917936ms, throughput(ops/sec) 29.558769798319922"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.024944ms, writeLatency 67.16179ms, throughput(ops/sec) 29.387668055138423"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.951648ms, writeLatency 66.728364ms, throughput(ops/sec) 29.681288297184313"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.085947ms, writeLatency 67.162644ms, throughput(ops/sec) 29.361089246412725"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.06536ms, writeLatency 66.891307ms, throughput(ops/sec) 29.510044813095735"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.00787ms, writeLatency 67.413392ms, throughput(ops/sec) 29.30136106269975"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.181648ms, writeLatency 66.44891ms, throughput(ops/sec) 29.69312620206804"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.128398ms, writeLatency 66.838442ms, throughput(ops/sec) 29.530773457750605"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.18924ms, writeLatency 66.802345ms, throughput(ops/sec) 29.483051079851055"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.089083ms, writeLatency 67.343464ms, throughput(ops/sec) 29.295361811336782"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.858361ms, writeLatency 66.900261ms, throughput(ops/sec) 29.64417120909417"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.93719ms, writeLatency 67.220685ms, throughput(ops/sec) 29.40633677137628"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.018061ms, writeLatency 66.985007ms, throughput(ops/sec) 29.47063356108526"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.061883ms, writeLatency 66.933452ms, throughput(ops/sec) 29.49377598496493"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.016899ms, writeLatency 66.569795ms, throughput(ops/sec) 29.70948826851414"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.061211ms, writeLatency 66.987102ms, throughput(ops/sec) 29.466305226622122"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.325069ms, writeLatency 66.784262ms, throughput(ops/sec) 29.41603799974228"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.089668ms, writeLatency 66.388905ms, throughput(ops/sec) 29.743293218583172"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.097295ms, writeLatency 66.920713ms, throughput(ops/sec) 29.509425724843023"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.048296ms, writeLatency 67.350941ms, throughput(ops/sec) 29.30418767577279"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.032999ms, writeLatency 67.119353ms, throughput(ops/sec) 29.407229403570675"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.192187ms, writeLatency 66.634682ms, throughput(ops/sec) 29.599773292286"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.006002ms, writeLatency 67.005277ms, throughput(ops/sec) 29.477495494320618"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.001041ms, writeLatency 66.930314ms, throughput(ops/sec) 29.548089283032777"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.218142ms, writeLatency 66.813297ms, throughput(ops/sec) 29.46560021032431"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.185601ms, writeLatency 66.57115ms, throughput(ops/sec) 29.645153271506143"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.914954ms, writeLatency 67.010122ms, throughput(ops/sec) 29.552219800341"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.045762ms, writeLatency 67.274097ms, throughput(ops/sec) 29.32663825405614"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.059187ms, writeLatency 66.837759ms, throughput(ops/sec) 29.56103178134562"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.011273ms, writeLatency 66.766163ms, throughput(ops/sec) 29.639106430888503"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.956135ms, writeLatency 67.146772ms, throughput(ops/sec) 29.42903975640444"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.051218ms, writeLatency 66.816366ms, throughput(ops/sec) 29.579228057140305"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.090644ms, writeLatency 66.79152ms, throughput(ops/sec) 29.577777950147098"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.09084ms, writeLatency 67.004166ms, throughput(ops/sec) 29.435808499221462"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.114075ms, writeLatency 67.141743ms, throughput(ops/sec) 29.357793368715985"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.950958ms, writeLatency 67.060884ms, throughput(ops/sec) 29.483593691959154"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.08443ms, writeLatency 66.884616ms, throughput(ops/sec) 29.494306285379828"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.0617ms, writeLatency 67.261942ms, throughput(ops/sec) 29.335905811989587"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.997642ms, writeLatency 66.829867ms, throughput(ops/sec) 29.61802496371781"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.17861ms, writeLatency 66.913554ms, throughput(ops/sec) 29.445783396919822"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.180001ms, writeLatency 66.555186ms, throughput(ops/sec) 29.64865129874055"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.067335ms, writeLatency 66.414031ms, throughput(ops/sec) 29.747932605021955"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.120554ms, writeLatency 67.155287ms, throughput(ops/sec) 29.344145038449213"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.062926ms, writeLatency 67.267761ms, throughput(ops/sec) 29.327262644526176"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.889183ms, writeLatency 66.487664ms, throughput(ops/sec) 29.774002186849682"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.012668ms, writeLatency 67.008119ms, throughput(ops/sec) 29.483496722000584"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.843584ms, writeLatency 67.062707ms, throughput(ops/sec) 29.566560490921198"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.085386ms, writeLatency 66.856634ms, throughput(ops/sec) 29.51598921896956"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.064585ms, writeLatency 67.129235ms, throughput(ops/sec) 29.38952176596217"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.006875ms, writeLatency 66.789032ms, throughput(ops/sec) 29.631235601226646"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.048908ms, writeLatency 67.384044ms, throughput(ops/sec) 29.301273176918627"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.049524ms, writeLatency 66.871399ms, throughput(ops/sec) 29.56207589670984"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.995111ms, writeLatency 66.921077ms, throughput(ops/sec) 29.564823847578644"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.032023ms, writeLatency 67.381987ms, throughput(ops/sec) 29.298581789525173"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.224253ms, writeLatency 66.737036ms, throughput(ops/sec) 29.505739348866413"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.001557ms, writeLatency 66.595213ms, throughput(ops/sec) 29.710459623016412"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.938434ms, writeLatency 67.465786ms, throughput(ops/sec) 29.303936073527673"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.138871ms, writeLatency 66.872159ms, throughput(ops/sec) 29.475536099600504"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.16007ms, writeLatency 66.889956ms, throughput(ops/sec) 29.448453729846385"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.018003ms, writeLatency 66.956581ms, throughput(ops/sec) 29.49297460967047"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.094872ms, writeLatency 67.268632ms, throughput(ops/sec) 29.318562836893037"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.001909ms, writeLatency 66.773526ms, throughput(ops/sec) 29.640348718502224"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.982909ms, writeLatency 66.887819ms, throughput(ops/sec) 29.57354944973207"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.134646ms, writeLatency 66.688087ms, throughput(ops/sec) 29.602116337882247"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.190001ms, writeLatency 66.682918ms, throughput(ops/sec) 29.580045084920435"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.960809ms, writeLatency 67.149988ms, throughput(ops/sec) 29.431086386163074"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.94649ms, writeLatency 66.991643ms, throughput(ops/sec) 29.55117846097929"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.984892ms, writeLatency 66.891629ms, throughput(ops/sec) 29.5710319993389"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.177726ms, writeLatency 67.261871ms, throughput(ops/sec) 29.28559548727894"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.409156ms, writeLatency 66.788993ms, throughput(ops/sec) 29.37780413651673"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.128397ms, writeLatency 67.073178ms, throughput(ops/sec) 29.385264502515682"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.134667ms, writeLatency 67.078815ms, throughput(ops/sec) 29.37542227371955"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.970002ms, writeLatency 66.965749ms, throughput(ops/sec) 29.551801049529466"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.034597ms, writeLatency 67.186335ms, throughput(ops/sec) 29.373765741166487"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.003922ms, writeLatency 66.794188ms, throughput(ops/sec) 29.630339904607673"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.222956ms, writeLatency 67.042171ms, throughput(ops/sec) 29.35203521133282"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.939138ms, writeLatency 66.720721ms, throughput(ops/sec) 29.68470944272205"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.179596ms, writeLatency 66.90241ms, throughput(ops/sec) 29.434540088072353"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.073308ms, writeLatency 67.3317ms, throughput(ops/sec) 29.30156435030101"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.163934ms, writeLatency 66.82368ms, throughput(ops/sec) 29.48513978398218"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.164816ms, writeLatency 66.977597ms, throughput(ops/sec) 29.404386345792577"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.997802ms, writeLatency 66.511794ms, throughput(ops/sec) 29.736883548799"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.23516ms, writeLatency 66.635014ms, throughput(ops/sec) 29.575005031573767"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.248104ms, writeLatency 66.425756ms, throughput(ops/sec) 29.668454385947438"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.972178ms, writeLatency 67.173845ms, throughput(ops/sec) 29.415933819992716"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.246675ms, writeLatency 67.109621ms, throughput(ops/sec) 29.313882666958545"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.97473ms, writeLatency 66.79372ms, throughput(ops/sec) 29.64340253974905"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.974764ms, writeLatency 66.438439ms, throughput(ops/sec) 29.768149487990975"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.123343ms, writeLatency 67.255093ms, throughput(ops/sec) 29.31201767374722"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.237136ms, writeLatency 66.942649ms, throughput(ops/sec) 29.392860554477778"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.055161ms, writeLatency 67.252996ms, throughput(ops/sec) 29.336902060904666"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.098658ms, writeLatency 66.969239ms, throughput(ops/sec) 29.447229317669237"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.059997ms, writeLatency 66.834178ms, throughput(ops/sec) 29.567676491818837"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.002607ms, writeLatency 66.910447ms, throughput(ops/sec) 29.566038819144683"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.189872ms, writeLatency 67.226377ms, throughput(ops/sec) 29.295250801906818"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.052566ms, writeLatency 67.145479ms, throughput(ops/sec) 29.393371706261114"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.947473ms, writeLatency 66.744299ms, throughput(ops/sec) 29.670788520438027"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.109068ms, writeLatency 67.172559ms, throughput(ops/sec) 29.346943675742153"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.973974ms, writeLatency 67.352478ms, throughput(ops/sec) 29.336047125031904"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.105818ms, writeLatency 66.882668ms, throughput(ops/sec) 29.485671584062178"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.166995ms, writeLatency 67.044381ms, throughput(ops/sec) 29.380522543323377"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.948329ms, writeLatency 67.400976ms, throughput(ops/sec) 29.32129955557027"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.04605ms, writeLatency 67.1427ms, throughput(ops/sec) 29.397416501659"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.194749ms, writeLatency 66.955404ms, throughput(ops/sec) 29.41076568499374"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.098675ms, writeLatency 66.970638ms, throughput(ops/sec) 29.44117252823733"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.237756ms, writeLatency 66.755773ms, throughput(ops/sec) 29.48690079104586"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.012311ms, writeLatency 67.200652ms, throughput(ops/sec) 29.387660321306438"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.085978ms, writeLatency 67.169837ms, throughput(ops/sec) 29.35821611122975"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.052428ms, writeLatency 66.932131ms, throughput(ops/sec) 29.498527778070123"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.923061ms, writeLatency 66.80118ms, throughput(ops/sec) 29.652353036401543"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.071121ms, writeLatency 66.889211ms, throughput(ops/sec) 29.50858248186973"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.297503ms, writeLatency 66.537651ms, throughput(ops/sec) 29.588976299006568"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.188296ms, writeLatency 66.916401ms, throughput(ops/sec) 29.430188688128702"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.00546ms, writeLatency 67.278088ms, throughput(ops/sec) 29.34768283744902"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.954143ms, writeLatency 66.95569ms, throughput(ops/sec) 29.558092642501215"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.166913ms, writeLatency 67.098913ms, throughput(ops/sec) 29.34769625010973"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.125253ms, writeLatency 66.761143ms, throughput(ops/sec) 29.564448078714374"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.045836ms, writeLatency 66.974462ms, throughput(ops/sec) 29.483374928874657"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.182022ms, writeLatency 66.672049ms, throughput(ops/sec) 29.577360399212786"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.13318ms, writeLatency 66.540613ms, throughput(ops/sec) 29.670473213704987"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.042649ms, writeLatency 66.863366ms, throughput(ops/sec) 29.56331108996157"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.989071ms, writeLatency 66.887527ms, throughput(ops/sec) 29.576413250160346"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.105183ms, writeLatency 67.299663ms, throughput(ops/sec) 29.30133949891758"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.947513ms, writeLatency 66.855672ms, throughput(ops/sec) 29.629367092835786"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.090513ms, writeLatency 67.32137ms, throughput(ops/sec) 29.298594106403545"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.934662ms, writeLatency 66.785326ms, throughput(ops/sec) 29.65398545712133"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.0958ms, writeLatency 66.756246ms, throughput(ops/sec) 29.579673126482387"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.993148ms, writeLatency 66.656685ms, throughput(ops/sec) 29.688095387806687"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.259698ms, writeLatency 66.528512ms, throughput(ops/sec) 29.630308121342942"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.994047ms, writeLatency 67.301377ms, throughput(ops/sec) 29.337734587411436"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.001371ms, writeLatency 66.590416ms, throughput(ops/sec) 29.71767903112172"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.124704ms, writeLatency 66.952341ms, throughput(ops/sec) 29.43748547801352"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.056762ms, writeLatency 67.214079ms, throughput(ops/sec) 29.352665181110723"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.019058ms, writeLatency 66.943597ms, throughput(ops/sec) 29.508417397606706"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.079252ms, writeLatency 67.060888ms, throughput(ops/sec) 29.406636361217128"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.816647ms, writeLatency 67.170599ms, throughput(ops/sec) 29.527260180936477"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.046057ms, writeLatency 67.068677ms, throughput(ops/sec) 29.423020215951126"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.094815ms, writeLatency 67.190429ms, throughput(ops/sec) 29.345626802625596"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.238279ms, writeLatency 67.187516ms, throughput(ops/sec) 29.290307767273493"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.01534ms, writeLatency 66.70852ms, throughput(ops/sec) 29.661250113716708"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.019998ms, writeLatency 66.830128ms, throughput(ops/sec) 29.587247961868897"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.952403ms, writeLatency 67.056319ms, throughput(ops/sec) 29.495083929334086"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.927047ms, writeLatency 66.917853ms, throughput(ops/sec) 29.58556819001587"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.093801ms, writeLatency 67.164694ms, throughput(ops/sec) 29.35677742251387"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.106761ms, writeLatency 66.762363ms, throughput(ops/sec) 29.572163500576185"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.232496ms, writeLatency 67.107857ms, throughput(ops/sec) 29.326445217192358"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.930918ms, writeLatency 66.834125ms, throughput(ops/sec) 29.645642077554193"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.094188ms, writeLatency 66.922049ms, throughput(ops/sec) 29.484145121066454"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.048672ms, writeLatency 66.676169ms, throughput(ops/sec) 29.649922447401842"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.034251ms, writeLatency 66.868211ms, throughput(ops/sec) 29.564559710522527"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.023833ms, writeLatency 67.044046ms, throughput(ops/sec) 29.458554013458222"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.127029ms, writeLatency 67.061686ms, throughput(ops/sec) 29.385296769944432"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.036618ms, writeLatency 67.060079ms, throughput(ops/sec) 29.430459398755456"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.029915ms, writeLatency 67.287787ms, throughput(ops/sec) 29.333244847258193"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.066271ms, writeLatency 66.561813ms, throughput(ops/sec) 29.685263108607575"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.021978ms, writeLatency 67.06587ms, throughput(ops/sec) 29.45007727672358"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.244538ms, writeLatency 66.76779ms, throughput(ops/sec) 29.48362210186399"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.931096ms, writeLatency 67.240253ms, throughput(ops/sec) 29.40108511305602"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.879051ms, writeLatency 67.164818ms, throughput(ops/sec) 29.475966191570684"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.983851ms, writeLatency 66.84106ms, throughput(ops/sec) 29.59868743358282"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.948914ms, writeLatency 67.367032ms, throughput(ops/sec) 29.334825628362797"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.008003ms, writeLatency 67.209246ms, throughput(ops/sec) 29.38590883580732"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.045626ms, writeLatency 66.537483ms, throughput(ops/sec) 29.720652711236053"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.960342ms, writeLatency 66.815601ms, throughput(ops/sec) 29.629443401596742"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.092968ms, writeLatency 67.112873ms, throughput(ops/sec) 29.389444943678008"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.12281ms, writeLatency 67.182566ms, throughput(ops/sec) 29.337064737888213"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.196045ms, writeLatency 66.76829ms, throughput(ops/sec) 29.504886146157226"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.917825ms, writeLatency 67.115212ms, throughput(ops/sec) 29.479971326361397"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.970069ms, writeLatency 67.135927ms, throughput(ops/sec) 29.422791107951657"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.940904ms, writeLatency 67.312171ms, throughput(ops/sec) 29.36155117999551"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.8547ms, writeLatency 67.151019ms, throughput(ops/sec) 29.482220544181107"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.015614ms, writeLatency 67.005288ms, throughput(ops/sec) 29.473240916425528"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.969266ms, writeLatency 66.913319ms, throughput(ops/sec) 29.574180235939476"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.078122ms, writeLatency 67.190508ms, throughput(ops/sec) 29.352721204527086"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.007426ms, writeLatency 66.763176ms, throughput(ops/sec) 29.642116080192107"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.846988ms, writeLatency 66.028813ms, throughput(ops/sec) 29.958849623676425"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.223251ms, writeLatency 66.730415ms, throughput(ops/sec) 29.508818247967806"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.136454ms, writeLatency 67.166063ms, throughput(ops/sec) 29.33806962633383"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.180232ms, writeLatency 67.200582ms, throughput(ops/sec) 29.304528883168864"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.011549ms, writeLatency 67.055247ms, throughput(ops/sec) 29.44903721333229"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.955753ms, writeLatency 67.048427ms, throughput(ops/sec) 29.481306337672894"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.104433ms, writeLatency 66.477028ms, throughput(ops/sec) 29.704764466636444"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.277084ms, writeLatency 66.326095ms, throughput(ops/sec) 29.707882584766285"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.8947ms, writeLatency 66.770975ms, throughput(ops/sec) 29.68297457289281"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.96235ms, writeLatency 67.29998ms, throughput(ops/sec) 29.357122753969215"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.100542ms, writeLatency 66.710627ms, throughput(ops/sec) 29.62323758427977"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.817651ms, writeLatency 66.498772ms, throughput(ops/sec) 29.800888429576357"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.068452ms, writeLatency 66.948394ms, throughput(ops/sec) 29.484488944988517"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.014445ms, writeLatency 67.118498ms, throughput(ops/sec) 29.415758145164357"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.107376ms, writeLatency 67.035913ms, throughput(ops/sec) 29.410326949132855"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.044757ms, writeLatency 66.939037ms, throughput(ops/sec) 29.49897643475374"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.097671ms, writeLatency 66.893441ms, throughput(ops/sec) 29.48467741394457"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.276636ms, writeLatency 66.555475ms, throughput(ops/sec) 29.58519933044361"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.174726ms, writeLatency 66.559646ms, throughput(ops/sec) 29.654555330546764"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.192854ms, writeLatency 66.749055ms, throughput(ops/sec) 29.540360695230287"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.147179ms, writeLatency 66.906687ms, throughput(ops/sec) 29.46745189533757"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.039131ms, writeLatency 66.871694ms, throughput(ops/sec) 29.566370336994964"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.136337ms, writeLatency 66.731506ms, throughput(ops/sec) 29.57767669653714"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.901431ms, writeLatency 67.016637ms, throughput(ops/sec) 29.56561806623565"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.974033ms, writeLatency 66.89932ms, throughput(ops/sec) 29.598749123127774"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.82833ms, writeLatency 66.61902ms, throughput(ops/sec) 29.755783705661674"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.040479ms, writeLatency 66.914901ms, throughput(ops/sec) 29.537145860904776"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.052564ms, writeLatency 66.980797ms, throughput(ops/sec) 29.467352696232663"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.124693ms, writeLatency 66.423441ms, throughput(ops/sec) 29.73440038411104"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.264479ms, writeLatency 67.090706ms, throughput(ops/sec) 29.319509034811063"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.053489ms, writeLatency 66.818902ms, throughput(ops/sec) 29.577127473747343"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.0014ms, writeLatency 66.666968ms, throughput(ops/sec) 29.675095823300143"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.079466ms, writeLatency 67.052875ms, throughput(ops/sec) 29.420103557000772"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.254701ms, writeLatency 66.789813ms, throughput(ops/sec) 29.464886782846396"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.003823ms, writeLatency 66.717963ms, throughput(ops/sec) 29.6623473974382"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.104405ms, writeLatency 67.321164ms, throughput(ops/sec) 29.292614308106693"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.259269ms, writeLatency 66.31485ms, throughput(ops/sec) 29.720769613060405"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.970273ms, writeLatency 67.274402ms, throughput(ops/sec) 29.374859896517414"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 1.991515ms, writeLatency 67.330129ms, throughput(ops/sec) 29.332340653255265"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.236501ms, writeLatency 66.483238ms, throughput(ops/sec) 29.648873157406907"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.081074ms, writeLatency 67.266364ms, throughput(ops/sec) 29.325556706952195"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.068293ms, writeLatency 67.409254ms, throughput(ops/sec) 29.28765211357805"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.149781ms, writeLatency 66.702347ms, throughput(ops/sec) 29.5896536403174"
+time="2020-02-17T02:12:29-06:00" level=info msg="readLatency 2.148542ms, writeLatency 66.764859ms, throughput(ops/sec) 29.56339885351588"
+
+=== DONE EXP3 READ/WRITE   ===
+

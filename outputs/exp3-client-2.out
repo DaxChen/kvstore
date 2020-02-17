@@ -1,0 +1,37 @@
+Server Address host:port (eg. localhost:10000)10.10.1.2:10000
+Number of clients: 2
+Do you want to load data? num_keys=1048576, value_size=4096
+1) Yes
+2) No
+#? 
+==============================
+=== EXP3 READ TEST         ===
+==============================
+
+spawning client 1
+spawning client 2
+time="2020-02-17T02:34:59-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:34:59-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:34:59-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:34:59-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:37:59-06:00" level=info msg="latency 308.116µs, throughput(ops/sec) 3245.5282056357028"
+time="2020-02-17T02:37:59-06:00" level=info msg="latency 308.131µs, throughput(ops/sec) 3245.366977965407"
+
+=== DONE EXP3 READ TEST    ===
+
+
+==============================
+=== EXP3 READ/WRITE TEST   ===
+==============================
+
+spawning client 1
+spawning client 2
+time="2020-02-17T02:38:00-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:38:00-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:38:00-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:38:00-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:41:00-06:00" level=info msg="readLatency 419.167µs, writeLatency 19.571871ms, throughput(ops/sec) 100.79036840426791"
+time="2020-02-17T02:41:00-06:00" level=info msg="readLatency 413.418µs, writeLatency 19.576248ms, throughput(ops/sec) 100.7977314130027"
+
+=== DONE EXP3 READ/WRITE   ===
+

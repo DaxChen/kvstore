@@ -1,0 +1,29 @@
+Server Address host:port (eg. localhost:10000)10.10.1.2:10000
+Number of clients: 1
+Do you want to load data? num_keys=1048576, value_size=4096
+1) Yes
+2) No
+#? 
+==============================
+=== EXP3 READ TEST         ===
+==============================
+
+spawning client 1
+time="2020-02-17T02:44:24-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:44:24-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:47:24-06:00" level=info msg="latency 338.136µs, throughput(ops/sec) 2957.3846442437953"
+
+=== DONE EXP3 READ TEST    ===
+
+
+==============================
+=== EXP3 READ/WRITE TEST   ===
+==============================
+
+spawning client 1
+time="2020-02-17T02:47:25-06:00" level=info msg="trying to connect to server at 10.10.1.2:10000"
+time="2020-02-17T02:47:25-06:00" level=info msg="connected to 10.10.1.2:10000"
+time="2020-02-17T02:50:25-06:00" level=info msg="readLatency 410.702µs, writeLatency 15.980108ms, throughput(ops/sec) 123.16345797255721"
+
+=== DONE EXP3 READ/WRITE   ===
+
