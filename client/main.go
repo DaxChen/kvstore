@@ -229,7 +229,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 					log.Debug("no get and set")
 				} else {
 					log.Debug("readLatency ", durR/time.Duration(countGet),
-						" writeLatency ", durW/time.Duration(countSet),
+						", writeLatency ", durW/time.Duration(countSet),
 						", throughput(ops/sec) ", float64(countGet+countSet)/(durR.Seconds()+durW.Seconds()))
 				}
 			}
@@ -261,7 +261,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 		log.Info("no get and set")
 	} else {
 		log.Info("readLatency ", durR/time.Duration(countGet),
-			" writeLatency ", durW/time.Duration(countSet),
+			", writeLatency ", durW/time.Duration(countSet),
 			", throughput(ops/sec) ", float64(countGet+countSet)/(durR.Seconds()+durW.Seconds()))
 	}
 }
