@@ -39,11 +39,11 @@ func generateRandomValue(length int) string {
 
 func doGet(client pb.KVStoreClient, key string) bool {
 	log.Tracef("try calling Get(%s)", key)
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 	defer cancel()
 	value, err := client.Get(ctx, &pb.Key{Key: key})
 	if err != nil {
-		//log.Errorf("called Get(%s), got error %v", key, err)
+		log.Errorf("called Get, got error %v", err)
 		return false
 	}
 	log.Tracef("called Get(%s), got %s", key, value)
