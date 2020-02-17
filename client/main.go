@@ -212,7 +212,8 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 
 func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	log.Debug("getAveRWLatency")
-	var dur time.Duration = 0
+	var durR time.Duration = 0
+	var durW time.Duration = 0
 	countGet := 0
 	countSet := 0
 
@@ -227,7 +228,9 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 				if countGet == 0 && countSet == 0 {
 					log.Debug("no get and set")
 				} else {
-					log.Debug("latency ", dur/time.Duration(countGet+countSet), ", throughput(ops/sec) ", float64(countGet+countSet)/dur.Seconds())
+					log.Debug("readLatency ", durR/time.Duration(countGet),
+						" writeLatency ", durW/time.Duration(countSet),
+						", throughput(ops/sec) ", float64(countGet+countSet)/(durR.Seconds()+durW.Seconds()))
 				}
 			}
 		}
@@ -241,14 +244,14 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 			if suc {
 				countGet++
 			}
-			dur += period
+			durR += period
 		} else {
 			value := generateRandomValue(valueSize)
 			period, suc := getWriteLatency(client, key, value)
 			if suc {
 				countSet++
 			}
-			dur += period
+			durW += period
 		}
 	}
 	ticker.Stop()
@@ -257,7 +260,9 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	if countGet == 0 && countSet == 0 {
 		log.Info("no get and set")
 	} else {
-		log.Info("latency ", dur/time.Duration(countGet+countSet), ", throughput(ops/sec) ", float64(countGet+countSet)/dur.Seconds())
+		log.Info("readLatency ", durR/time.Duration(countGet),
+			" writeLatency ", durW/time.Duration(countSet),
+			", throughput(ops/sec) ", float64(countGet+countSet)/(durR.Seconds()+durW.Seconds()))
 	}
 }
 
