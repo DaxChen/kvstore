@@ -20,7 +20,7 @@ load_data() {
 }
 
 # ask user if want to load data
-echo "Do you want to load 4GB data?"
+echo "Do you want to load data? num_keys=$num_keys, value_size=$value_size"
 select yn in "Yes" "No"; do
     case $yn in
         Yes ) load_data; break;;
