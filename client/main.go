@@ -12,7 +12,6 @@ import (
 	"time"
 
 	pb "github.com/DaxChen/kvstore/proto"
-	"github.com/fatih/color"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/gosuri/uiprogress"
 	log "github.com/sirupsen/logrus"
@@ -163,11 +162,11 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 			select {
 			case <-done:
 				return
-			case t := <-ticker.C:
+			case <-ticker.C:
 				if countGet == 0 {
-					log.Debug(t, "\t", 0, "\t", 0)
+					log.Debug("no get")
 				} else {
-					log.Debug(t, "\t", dur/time.Duration(countGet), "\t", float64(128*countGet/1024)/dur.Seconds())
+					log.Debug("latency ", dur/time.Duration(countGet), " ,throughput ", float64(128*countGet/1024)/dur.Seconds())
 				}
 			}
 		}
@@ -186,9 +185,9 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	done <- true
 
 	if countGet == 0 {
-		log.Debug(time.Now(), "\t", 0, "\t", 0)
+		log.Info("no get")
 	} else {
-		log.Debug(time.Now(), "\t", dur/time.Duration(countGet), "\t", float64(128*countGet/1024)/dur.Seconds())
+		log.Info("latency ", dur/time.Duration(countGet), " ,throughput ", float64(128*countGet/1024)/dur.Seconds())
 	}
 }
 
@@ -205,13 +204,13 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 			select {
 			case <-done:
 				return
-			case t := <-ticker.C:
-				if countGet == 0 {
-					log.Debug(t, "\t", 0, "\t", 0)
+			case <-ticker.C:
+				if countGet == 0 && countSet == 0 {
+					log.Debug("no get and set")
 				} else {
 					rThp := float64(128*countGet/1024) / dur.Seconds()
 					wThp := float64(valueSize*countSet/1024) / dur.Seconds()
-					log.Debug(t, "\t", dur/time.Duration(countGet+countSet), "\t", rThp+wThp)
+					log.Debug("latency ", dur/time.Duration(countGet+countSet), " ,throughput ", rThp+wThp)
 				}
 			}
 		}
@@ -238,12 +237,12 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	ticker.Stop()
 	done <- true
 
-	if countGet == 0 {
-		log.Debug(time.Now(), "\t", 0, "\t", 0)
+	if countGet == 0 && countSet == 0 {
+		log.Info("no get and set")
 	} else {
 		rThp := float64(128*countGet/1024) / dur.Seconds()
 		wThp := float64(valueSize*countSet/1024) / dur.Seconds()
-		log.Debug(time.Now(), "\t", dur/time.Duration(countGet+countSet), "\t", rThp+wThp)
+		log.Info("latency ", dur/time.Duration(countGet+countSet), " ,throughput ", rThp+wThp)
 	}
 }
 
@@ -349,22 +348,23 @@ func main() {
 		doStat(client)
 	} else if len(args) == 2 && args[0] == "prefix" {
 		doGetPrefix(client, args[1])
-	} else {
-		fmt.Println("")
-		color.Red("Usage:")
-		fmt.Println("# load the server with <#keys> keys, each with <value_size> bytes of value.")
-		color.Green("./kvclient load <#keys> <value_size>")
-		fmt.Println("")
-		fmt.Println("# run exp1 read test (provide #keys to make sure randome genreate keys are in range)")
-		color.Green("./kvclient exp1 read <#keys>")
-		fmt.Println("# run exp1 50% read 50% write test")
-		color.Green("./kvclient exp1 readwrite <#keys> <value_size>")
-		fmt.Println("")
-		fmt.Println("# run exp2: measure cold start time")
-		color.Green("./kvclient exp2")
-		fmt.Println("")
-		fmt.Println("# other commands")
-		color.Green("./kvclient stat")
-		color.Green("./kvclient prefix <prefix_key>")
 	}
+	//else {
+	//	fmt.Println("")
+	//	color.Red("Usage:")
+	//	fmt.Println("# load the server with <#keys> keys, each with <value_size> bytes of value.")
+	//	color.Green("./kvclient load <#keys> <value_size>")
+	//	fmt.Println("")
+	//	fmt.Println("# run exp1 read test (provide #keys to make sure randome genreate keys are in range)")
+	//	color.Green("./kvclient exp1 read <#keys>")
+	//	fmt.Println("# run exp1 50% read 50% write test")
+	//	color.Green("./kvclient exp1 readwrite <#keys> <value_size>")
+	//	fmt.Println("")
+	//	fmt.Println("# run exp2: measure cold start time")
+	//	color.Green("./kvclient exp2")
+	//	fmt.Println("")
+	//	fmt.Println("# other commands")
+	//	color.Green("./kvclient stat")
+	//	color.Green("./kvclient prefix <prefix_key>")
+	//}
 }
