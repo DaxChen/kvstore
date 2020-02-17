@@ -148,6 +148,14 @@ func loadDataBase(client pb.KVStoreClient, numKeys int, valueSize int) {
 	}
 	wg.Wait()
 	uiprogress.Stop()
+
+	// call fsync
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	_, err := client.Fsync(ctx, &empty.Empty{})
+	if err != nil {
+		log.Errorf("called FSync, got error %v", err)
+	}
 }
 
 func getAveReadLatency(client pb.KVStoreClient, numKeys int) {

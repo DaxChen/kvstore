@@ -50,6 +50,14 @@ func (s *Server) SetWithoutSync(ctx context.Context, pair *pb.KeyValuePair) (*pb
 	return &pb.SetResponse{Success: true}, nil
 }
 
+func (s *Server) Fsync(ctx context.Context, _ *empty.Empty) (*empty.Empty, error) {
+	if err := s.store.logfile.Sync(); err != nil {
+		log.Errorf("Fsync: error fsync to logfile: %v", err)
+		return nil, err
+	}
+	return &empty.Empty{}, nil
+}
+
 func (s *Server) GetPrefix(prefixKey *pb.PrefixKey, stream pb.KVStore_GetPrefixServer) error {
 	prefix := prefixKey.GetPrefix()
 	log.Debugf("received request GetPrefix(%s)\n", prefix)
@@ -79,5 +87,5 @@ func (s *Server) GetStat(context.Context, *empty.Empty) (*pb.States, error) {
 
 func (s *Server) Crash(ctx context.Context, _ *empty.Empty) (*empty.Empty, error) {
 	os.Exit(3)
-	return nil, nil
+	return &empty.Empty{}, nil
 }

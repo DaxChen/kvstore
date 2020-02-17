@@ -9,6 +9,7 @@ service KVStore {
   rpc Get(Key) returns (Value) {}
   rpc Set(KeyValuePair) returns (SetResponse) {}
   rpc SetWithoutSync(KeyValuePair) returns (SetResponse) {}
+  rpc Fsync(google.protobuf.Empty) returns (google.protobuf.Empty) {}
   rpc GetPrefix(PrefixKey) returns (stream Value) {}
   rpc GetStat(google.protobuf.Empty) returns (States) {}
   rpc Crash(google.protobuf.Empty) returns (google.protobuf.Empty) {}

@@ -3,7 +3,7 @@
 default: kvserver kvclient
 
 clean:
-	rm -f kvserver kvclient
+	rm -f kvserver kvclient mem.log
 
 kvserver: server/*.go
 	go build -o kvserver server/*.go
