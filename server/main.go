@@ -19,7 +19,10 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 	log.Info("starting server on port 10000...")
-	grpcServer := grpc.NewServer(grpc.MaxRecvMsgSize(maxMsgSize), grpc.MaxSendMsgSize(maxMsgSize))
+	grpcServer := grpc.NewServer(
+		grpc.MaxRecvMsgSize(maxMsgSize),
+		grpc.MaxSendMsgSize(maxMsgSize),
+	)
 	server := NewServer()
 	pb.RegisterKVStoreServer(grpcServer, server)
 	log.Info("server started on time: ", time.Now())
@@ -32,7 +35,7 @@ func main() {
 			case <-done:
 				return
 			case <-ticker.C:
-				log.Debug("gets done ", totalGetsDone ,", sets done ", totalSetsDone, ", prefix done ", totalGetprefixesDone)
+				log.Debug("gets done ", totalGetsDone, ", sets done ", totalSetsDone, ", prefix done ", totalGetprefixesDone)
 			}
 		}
 	}()

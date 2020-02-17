@@ -313,7 +313,16 @@ func main() {
 	flag.Parse()
 
 	log.Infof("trying to connect to server at %s", *serverAddr)
-	conn, err := grpc.Dial(*serverAddr, grpc.WithInsecure(), grpc.WithBlock())
+	const maxMsgSize = 1024 * 1024 * 5
+	conn, err := grpc.Dial(
+		*serverAddr,
+		grpc.WithInsecure(),
+		grpc.WithBlock(),
+		grpc.WithDefaultCallOptions(
+			grpc.MaxCallRecvMsgSize(maxMsgSize),
+			grpc.MaxCallSendMsgSize(maxMsgSize),
+		),
+	)
 	if err != nil {
 		log.Fatalf("failed to connect to server: %v", err)
 	}
