@@ -183,7 +183,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(30*time.Second)) { //3 * time.Minute
+	for time.Now().Before(exp.Add(3 * time.Minute)) {
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		period, suc := getReadLatency(client, key)
 		if suc {
@@ -225,7 +225,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(30*time.Second)) {
+	for time.Now().Before(exp.Add(3 * time.Minute)) {
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		if rand.Intn(2) >= 1 {
 			period, suc := getReadLatency(client, key)
