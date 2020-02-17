@@ -159,6 +159,8 @@ func loadDataBase(client pb.KVStoreClient, numKeys int, valueSize int) {
 }
 
 func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
+	// throughput (operations per second) = (total number of operations) / time.
+	// latency of the run as the sum of latencies of all operations divided by the total no. of operations.
 	log.Debug("getAveReadLatency")
 	var dur time.Duration = 0
 	countGet := 0
@@ -174,14 +176,14 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 				if countGet == 0 {
 					log.Debug("no get")
 				} else {
-					log.Debug("latency ", dur/time.Duration(countGet), " ,throughput ", float64(128*countGet/1024)/dur.Seconds())
+					log.Debug("latency ", dur / time.Duration(countGet), " ,throughput(ops/sec) ", float64(countGet) / dur.Seconds())
 				}
 			}
 		}
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3 * time.Minute)) {
+	for time.Now().Before(exp.Add(30*time.Second)) { //3 * time.Minute
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		period, suc := getReadLatency(client, key)
 		if suc {
@@ -195,7 +197,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	if countGet == 0 {
 		log.Info("no get")
 	} else {
-		log.Info("latency ", dur/time.Duration(countGet), " ,throughput ", float64(128*countGet/1024)/dur.Seconds())
+		log.Info("latency ", dur / time.Duration(countGet), " ,throughput(ops/sec) ", float64(countGet) / dur.Seconds())
 	}
 }
 
@@ -216,16 +218,14 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 				if countGet == 0 && countSet == 0 {
 					log.Debug("no get and set")
 				} else {
-					rThp := float64(128*countGet/1024) / dur.Seconds()
-					wThp := float64(valueSize*countSet/1024) / dur.Seconds()
-					log.Debug("latency ", dur/time.Duration(countGet+countSet), " ,throughput ", rThp+wThp)
+					log.Debug("latency ", dur / time.Duration(countGet+countSet), " ,throughput(ops/sec) ", float64(countGet+countSet) / dur.Seconds())
 				}
 			}
 		}
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3 * time.Minute)) {
+	for time.Now().Before(exp.Add(30*time.Second)) {
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		if rand.Intn(2) >= 1 {
 			period, suc := getReadLatency(client, key)
@@ -248,9 +248,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	if countGet == 0 && countSet == 0 {
 		log.Info("no get and set")
 	} else {
-		rThp := float64(128*countGet/1024) / dur.Seconds()
-		wThp := float64(valueSize*countSet/1024) / dur.Seconds()
-		log.Info("latency ", dur/time.Duration(countGet+countSet), " ,throughput ", rThp+wThp)
+		log.Info("latency ", dur / time.Duration(countGet+countSet), " ,throughput(ops/sec) ", float64(countGet+countSet) / dur.Seconds())
 	}
 }
 
