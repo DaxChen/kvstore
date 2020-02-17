@@ -10,3 +10,6 @@ kvserver: server/*.go
 
 kvclient: client/*.go
 	go build -o kvclient client/*.go
+
+test: default
+	scripts/simple-test.sh

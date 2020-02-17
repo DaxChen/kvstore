@@ -25,6 +25,7 @@ var (
 	numKeys    = flag.Int("num_keys", 0, "number of keys")
 	valueSize  = flag.Int("value_size", 0, "value size in bytes")
 	prefixKey  = flag.String("prefix_key", "", "the prefix key to get")
+	duration   = flag.Int("duration", 180, "run for how many seconds to test")
 )
 
 const charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -109,8 +110,8 @@ func doStat(client pb.KVStoreClient) {
 		log.Errorf("called GetStat, got error %v", err)
 	}
 
-	log.Debug("time", states.ServerStartTime, "\t#gets", states.TotalGetsDone,
-		"\t#sets", states.TotalSetsDone, "\t#prefixs", states.TotalGetprefixesDone)
+	log.Info("\n\nSTAT:\nserver start time: ", states.ServerStartTime, "\n#total_gets done: ", states.TotalGetsDone,
+		"\n#total_sets done: ", states.TotalSetsDone, "\n#total_getprefixes done: ", states.TotalGetprefixesDone, "\n\n")
 }
 
 func doCrash(client pb.KVStoreClient) {
@@ -192,7 +193,7 @@ func getAveReadLatency(client pb.KVStoreClient, numKeys int) {
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3 * time.Minute)) {
+	for time.Now().Before(exp.Add(time.Duration(*duration) * time.Second)) {
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		period, suc := getReadLatency(client, key)
 		if suc {
@@ -237,7 +238,7 @@ func getAveRWLatency(client pb.KVStoreClient, numKeys int, valueSize int) {
 	}()
 
 	exp := time.Now()
-	for time.Now().Before(exp.Add(3 * time.Minute)) {
+	for time.Now().Before(exp.Add(time.Duration(*duration) * time.Second)) {
 		key := fmt.Sprintf("%0128d", rand.Intn(numKeys)+1)
 		if rand.Intn(2) >= 1 {
 			period, suc := getReadLatency(client, key)

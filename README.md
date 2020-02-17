@@ -20,6 +20,7 @@ Make sure you have go modules installed and go should automatically download the
 
 - `make`: compile both server and client binary executables using `go build`.
 - `make clean`: to remove `kvserver`, `kvclient`, and the database file `mem.log`.
+- `make test`: will run `scripts/simple-test.sh`, will start server and clients on same machine, load some data, run some basic operations for about 20 seconds, and kill server.
 
 # run test scripts
 
